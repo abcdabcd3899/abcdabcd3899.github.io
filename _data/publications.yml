@@ -1,0 +1,333 @@
+main:
+  - title: "A Hierarchical Wavelet Bispectrum Framework for Automated Seizure Detection"
+    authors: "Wei Cao, Rachid Hedjam, Bessam Abdulrazak, Jun-Peng Zhu"
+    # corresponding_authors: ["Jun-Peng Zhu"]
+    image: ./assets/img/ai4Seizure.jpg
+    notes: Best Paper Award
+    conference_short: BDDM
+    id: ai4Seizure
+    conference: IEEE International Conference on Big Data and Data Mining, 2025
+    selected: true
+    labels: ["AI for Science"]
+    year: 20251213
+    under_review: false
+
+  - title: "TiInsight: A SQL-based Automated Exploratory Data Analysis System with Large Language Models"
+    authors: "Jun-Peng Zhu, Boyan Niu, Peng Cai, Zheming Ni, Jianwei Wan, Kai Xu, Jiajun Huang, Shengbo Ma, Bing Wang, Xuan Zhou, Guanglei Bao, Donghui Zhang, Liu Tang, Qi Liu"
+    # corresponding_authors: ["Peng Cai"]
+    code: https://www.tiinsight.chat/
+    image: ./assets/img/9.png
+    # notes: In Submission
+    selected: false
+    labels: ["Data Analytics", "LLM-based EDA"]
+    year: 2025
+    video: https://youtu.be/Xe9XphaLRF8
+    under_review: true
+
+  - title: "Towards Automated Cross-domain Exploratory Data Analysis through Large Language Models"
+    authors: "Jun-Peng Zhu, Boyan Niu, Peng Cai, Zheming Ni, Jianwei Wan, Kai Xu, Jiajun Huang, Shengbo Ma, Bing Wang, Xuan Zhou, Guanglei Bao, Donghui Zhang, Liu Tang, Qi Liu"
+    # corresponding_authors: ["Peng Cai"]
+    conference_short: PVLDB
+    conference: Proceedings of the VLDB Endowment (PVLDB), 2025.
+    abstract: "Exploratory data analysis (EDA), coupled with SQL, is essential for data analysts involved in data exploration and analysis. However, data analysts often encounter two primary challenges: (1) the need to craft SQL queries skillfully, and (2) the requirement to generate suitable visualization types that enhance the interpretation of query results. Due to its significance, substantial research efforts have been made to explore different approaches to address these challenges, including leveraging large language models (LLMs). However, existing methods fail to meet real-world data exploration requirements primarily due to (1) complex database schema; (2) unclear user intent; (3) limited cross-domain generalization capability; and (4) insufficient end-to-end text-to-visualization capability. This paper presents TiInsight, an automated SQL-based cross-domain exploratory data analysis system. First, we propose hierarchical data context (i.e., HDC), which leverages LLMs to summarize the contexts related to the database schema, which is crucial for open-world EDA systems to generalize across data domains. Second, the EDA system is divided into four components (i.e., stages): HDC generation, question clarification and decomposition, text-to-SQL generation (i.e., TiSQL), and data visualization (i.e., TiChart). Finally, we implemented an end-to-end EDA system with a user-friendly GUI interface in the production environment at PingCAP. We have also open-sourced all APIs of TiInsight to facilitate research within the EDA community. Through extensive evaluations by a real-world user study, we demonstrate that TiInsight offers remarkable performance compared to human experts. Additionally, TiSQL achieves an execution accuracy of 86.3% on the Spider dataset when using GPT-4 . It also attains an execution accuracy of 60.98% on the Bird dataset."
+    bibtex: |
+      @article{zhu2024towards,
+        title={Towards Automated Cross-domain Exploratory Data Analysis through Large Language Models},
+        author={Zhu, Jun-Peng and Niu, Boyan and Cai, Peng and Ni, Zheming and Wan, Jianwei and Xu, Kai and Huang, Jiajun and Ma, Shengbo and Wang, Bing and Zhou, Xuan and others},
+        journal={arXiv preprint arXiv:2412.07214},
+        year={2024}
+      }
+    pdf: assets/files/TiInsight.pdf
+    code: https://www.tiinsight.chat/
+    image: ./assets/img/4.png
+    notes: "CCF-A"
+    id: tiinsight
+    selected: true
+    labels: ["Data Analytics", "LLM-based EDA"]
+    year: 20250624
+    video: https://youtu.be/Xe9XphaLRF8
+    blog: https://mp.weixin.qq.com/s/oufyQBVJP1k08j7JXAFL5w
+    citations: 4  # 基于Google Scholar数据
+    under_review: false
+
+  - title: "FDBKeeper: Enabling Scalable Coordination Services for Metadata Management using Distributed Key-Value Databases"
+    authors: "Jun-Peng Zhu, Lingfeng Zhang, Peng Cai, Xuan Zhou, Peisen Zhao, Xue Wang, Lingpeng Tang"
+    # corresponding_authors: ["Peng Cai"]
+    conference_short: PVLDB
+    conference: Proceedings of the VLDB Endowment (PVLDB), 2025.
+    abstract: "High-reliability distributed coordination services have become an indispensable part of modern large-scale distributed systems. Popular coordination services (e.g., ZooKeeper) adopt a single-writer design to provide a centralized service for managing system metadata, including various configuration information and data catalogs, and to provide distributed synchronization functions. With the continuous increase in metadata size and the scale of distributed systems, these coordination services gradually become performance bottlenecks due to their limitations in capacity, read and write performance, and scalability. To bridge the gaps, we propose FDBKeeper, a novel solution that enables scalable coordination services on distributed ACID key-value database systems. Our motivation is that transactional key-value stores (i.e., FoundationDB) meet the demands of performance and scalability required by large-scale distributed systems over coordination service. To leverage these advantages, coordination services can be implemented as an upper layer on top of distributed ACID key-value databases. Our experimental results demonstrate that FDBKeeper significantly outperforms ZooKeeper across key metrics. Additionally, FDBKeeper reduces hardware resource costs on average by 33% in the production environment, resulting in substantial monetary cost savings. We have successfully replaced ZooKeeper with FDBKeeper in the production-grade ClickHouse cluster deployment."
+    bibtex: |
+      @article{zhu2025fdbkeeper,
+        title={FDBKeeper: Enabling Scalable Coordination Services for Metadata Management using Distributed Key-Value Databases},
+        author={Zhu, Jun-Peng and Zhang, Lingfeng and Cai, Peng and Zhou, Xuan and Zhao, Peisen and Wang, Xue and Tang, Linpeng},
+        journal={Proceedings of the VLDB Endowment},
+        volume={18},
+        number={12},
+        pages={5004--5016},
+        year={2025},
+        publisher={VLDB Endowment}
+      }
+    pdf: assets/files/FDBKeeper.pdf
+    code: https://github.com/DASE-iDDS/FDBKeeper
+    image: ./assets/img/8.png
+    blog: https://mp.weixin.qq.com/s/qTwU1mEIARNV2g6zOAoitg
+    notes: "CCF-A"
+    id: fdbkeeper
+    selected: true
+    labels: ["Coordination Services", "Distributed Database Systems"]
+    year: 20250623
+    under_review: false
+
+  - title: "HAWK: A Workload-driven Hierarchical Deadlock Detection Approach in Distributed Database System"
+    authors: "Rongrong Zhang, Zhiwei Ye, Jun-Peng Zhu, Peng Cai, Xuan Zhou, Dunbo Cai, Ling Qian"
+    # corresponding_authors: ["Peng Cai"]
+    conference_short: PVLDB
+    conference: Proceedings of the VLDB Endowment (PVLDB), 2025.
+    abstract: "Distributed databases are widely used in various fields, such as financial services and e-commerce.
+                These businesses generally exhibit characteristics of large-scale and rapid growth.
+                However, these business systems often suffer from deadlocks that prevent them from operating normally for extended periods.
+                Traditional deadlock detection methods face challenges in scalability and efficiency, especially as the number of nodes increases.
+                Therefore, deadlock detection has always been a research area in distributed databases.
+                In this paper, we introduce an efficient deadlock detection algorithm called HAWK, leveraging a Hierarchical Approach based on Workload modeling.
+                Our algorithm addresses these issues by constructing a dynamic hierarchical detection tree that adapts to transaction patterns, significantly reducing time complexity and communication overhead.
+                HAWK first models the workload and generates a predicted access graph (PAG), transforming the problem of partitioning detection task in the basic hierarchical detection into partition detection zone (DZ) in the PAG by a graph-cutting algorithm.
+                Then, leveraging the properties of strongly connected components (SCCs) and deadlock cycles, the SCC-cut algorithm naturally partitions the system-wide deadlock detection into multiple non-intersecting detection zones, thereby enhancing detection efficiency.
+                We used the greedy SCC-cut algorithm to perform a more fine-grained partitioning of the complex PAG.
+                Finally, by periodically sampling and updating the hierarchical structure, the algorithm remains responsive to dynamic workload variations, ensuring efficient detection.
+                Our approach outperforms both centralized and distributed methods, offering a more efficient and adaptive solution.
+                Extensive experimental results demonstrate the effectiveness of the HAWK algorithm, showing significant reductions in the duration of the deadlock and improved system throughput."
+    bibtex: |
+      @article{zhang2025hawk,
+        title={HAWK: A Workload-driven Hierarchical Deadlock Detection Approach in Distributed Database System},
+        author={Zhang, Rongrong and Ye, Zhiwei and Zhu, Jun-Peng and Cai, Peng and Zhou, Xuan and Cai, Dunbo and Qian, Ling},
+        journal={Proceedings of the VLDB Endowment},
+        volume={18},
+        number={10},
+        pages={3682--3694},
+        year={2025},
+        publisher={VLDB Endowment}
+      }
+    pdf: https://www.vldb.org/pvldb/vol18/p3682-cai.pdf
+    code: https://github.com/rrzhang23/HAWK_txn
+    image: ./assets/img/12.png
+    notes: "CCF-A"
+    id: hawk
+    selected: true
+    labels: ["Deadlock Detection", "Distributed Database Systems"]
+    year: 20250516
+    under_review: false
+
+
+  - title: "UNITQA: A Unified Automated Tabular Question Answering System with Multi-Agent Large Language Models"
+    authors: "Jun-Peng Zhu, Peng Cai, Kai Xu, Li Li, Yishen Sun, Shuai Zhou, Haihuang Su, Liu Tang, Qi Liu"
+    # corresponding_authors: ["Peng Cai", "Kai Xu"]
+    conference_short: SIGMOD
+    conference: ACM SIGMOD/PODS International Conference on Management of Data (SIGMOD), 2025
+    abstract: "Automated tabular question answering (TQA) has attracted significant attention in data analysis and natural language processing communities due to its powerful capabilities. The emergence of large language models (LLMs) has initiated a paradigm shift in this field. However, existing state-of-the-art approaches cannot generally operate on multiple tables from multiple heterogeneous systems, and the answer accuracy is insufficient to meet the demands of the industrial field. This paper presents UNITQA, a unified automated tabular question-answering system through multi-agent LLMs. First, UNITQA offers a user-friendly GUI interface that enables users to use natural language questions to execute TQA tasks. Second, UNITQA consists of five agents who collaborate to complete user-specified tasks. To efficiently orchestrate different agents, UNITQA utilizes a dynamic agent scheduling algorithm based on a finite-state machine. Third, UNITQA integrates a series of data connectors that allow UNITQA to access various tables from multiple heterogeneous systems. We have implemented and deployed UNITQA in numerous production environments and have demonstrated its usability and efficiency in representative real-world scenarios."
+    bibtex: |
+      @inproceedings{zhu2025unitqa,
+        title={UNITQA: A Unified Automated Tabular Question Answering System with Multi-Agent Large Language Models},
+        author={Zhu, Jun-Peng and Cai, Peng and Xu, Kai and Li, Li and Sun, Yishen and Zhou, Shuai and Su, Haihuang and Tang, Liu and Liu, Qi},
+        booktitle={Companion of the 2025 International Conference on Management of Data},
+        pages={279--282},
+        year={2025}
+      }
+    pdf: https://dl.acm.org/doi/10.1145/3722212.3725140
+    code: https://github.com/abcdabcd3899
+    image: ./assets/img/6.png
+    notes: "CCF-A"
+    id: unitqa
+    selected: true
+    labels: ["LLM-based TQA"]
+    year: 20250316
+    video: https://youtu.be/7FYiCDupRK8
+    under_review: false
+
+  - title: "RedTAO: A Trillion-edge High-throughput Graph Store"
+    authors: "Shihao Zhou, Qi Mao, Yi Cheng, Hongcheng Qi, Yilun Huang, Peng Cai, Jun-Peng Zhu"
+    # corresponding_authors: ["Qi Mao", "Peng Cai"]
+    conference_short: SIGMOD
+    conference: ACM SIGMOD/PODS International Conference on Management of Data (SIGMOD), 2025
+    abstract: "With the explosive growth of daily active users, the social graph data of Xiaohongshu has scaled to trillions of edges, imposing high pressure on our storage system. Current state-of-the-art systems struggle to address the issue, primarily due to: (1) Traditional relational databases as the back-end storage require frequent scaling, incurring high cost and stability risks. (2) Most graph databases focus on complex multi-hop queries. Redundant components in these systems make them difficult to take advantage when processing our workloads dominated by one-hop queries. (3) Using cache systems like Redis or Memcache often struggles to ensure consistency between the cache and storage.
+              In this paper, we propose RedTAO, which has a scalable and efficient graph cache layer optimized for social scenarios. Over 90.7% of queries are served directly by the cache, enabling us to focus on scaling it as traffic increases. RedTAO employs cross-cloud, multi-active deployment, synchronizing replicas through the storage layer. The cache layer directly accesses local storage, avoiding costly cross-region requests. Additionally, the data transmission service (DTS) component asynchronously corrects cache data, ensuring cache consistency. RedTAO has been successfully deployed in Xiaohongshu, achieving a 1.8X throughput improvement and at least 21.3% reduction in resource usage compared to the previously used MySQL architecture."
+    bibtex: |
+      @inproceedings{zhou2025redtao,
+        title={RedTAO: A Trillion-edge High-throughput Graph Store},
+        author={Zhou, Shihao and Mao, Qi and Cheng, Yi and Qi, Hongcheng and Huang, Yilun and Cai, Peng and Zhu, Jun-Peng},
+        booktitle={Companion of the 2025 International Conference on Management of Data},
+        pages={716--728},
+        year={2025}
+      }
+    pdf: https://dl.acm.org/doi/10.1145/3722212.3724449
+    image: ./assets/img/7.png
+    notes: "CCF-A"
+    id: redtao
+    selected: true
+    labels: ["Storage Engine", "Distributed Database Systems"]
+    year: 20250226
+    under_review: false
+
+  - title: "SylphDB: An Active and Adaptive LSM Engine for Update-Intensive Workloads"
+    authors: "Jun-Peng Zhu, Zhiwei Ye, Xiaolong He, Peng Cai, Xuan Zhou, Aoying Zhou, Dunbo Cai, Ling Qian, Kai Xu, Liu Tang, Qi Liu"
+    # corresponding_authors: ["Peng Cai"]
+    conference_short: ICDE
+    conference: 41st IEEE International Conference on Data Engineering (ICDE), 2025
+    abstract: "Update-intensive workloads are prevalent in contemporary OLTP and AI/ML scenarios. An update operation typically involves deleting the old version of the target record and then inserting a new version. In this work, we demonstrate that an LSM-tree faces two issues when dealing with update-intensive workloads. Firstly, the deleted old versions are not promptly garbage collected until they merge with their new versions during compaction. This may lead to space waste and write amplification. Secondly, it is common for an update operation to modify only a small fraction of a data record, such as one of a hundred attributes. However, state-of-the-art LSM-trees fail to effectively utilize the incremental storage strategy, which involves storing only the updated fraction rather than the entire new version to enhance efficiency. In this paper, we propose two techniques, active and fast garbage collection, and adaptive incremental updating, to address these issues, respectively. Active and fast garbage collection probes the distribution of invalid data versions in an LSM-tree and performs garbage collection in a more promptly manner. Adaptive incremental updating applies different storage modes to the update operation to achieve balanced write and read amplification ratios as much as possible. Based on the techniques, we introduce SylphDB implemented based on the codebase of RocksDB and optimized for update-intensive workloads. Experimental results demonstrated that, compared to traditional LSM-tree based systems, SylphDB can improve the efficiency of garbage collection by 2× and reduce write amplification by 20%."
+    bibtex: |
+      @inproceedings{zhu2025sylphdb,
+        title={SylphDB: An Active and Adaptive LSM Engine for Update-Intensive Workloads},
+        author={Zhu, Jun-Peng and Ye, Zhiwei and He, Xiaolong and Cai, Peng and Zhou, Xuan and Zhou, Aoying and Cai, Dunbo and Qian, Ling and Xu, Kai and Tang, Liu and others},
+        booktitle={2025 IEEE 41st International Conference on Data Engineering (ICDE)},
+        pages={4360--4372},
+        year={2025},
+        organization={IEEE Computer Society}
+      }
+    pdf: https://www.computer.org/csdl/proceedings-article/icde/2025/360300e360/26FZCyiZTOg
+    code: https://github.com/abcdabcd3899
+    image: ./assets/img/5.png
+    notes: "CCF-A"
+    id: sylphdb
+    selected: true
+    labels: ["Storage Engine", "LSM-tree"]
+    year: 20250326
+    under_review: false
+
+  - title: "AutoTQA: Towards Autonomous Tabular Question Answering through Multi-Agent Large Language Models"
+    authors: "Jun-Peng Zhu, Peng Cai, Kai Xu, Li Li, Yishen Sun, Shuai Zhou, Haihuang Su, Liu Tang, Qi Liu"
+    # corresponding_authors: ["Peng Cai", "Kai Xu"]
+    conference_short: PVLDB
+    conference: Proceedings of the VLDB Endowment (PVLDB), 2024.
+    abstract: "With the growing significance of data analysis, several studies aim to provide precise answers to users' natural language questions from tables, a task referred to as tabular question answering (TQA). The state-of-the-art TQA approaches are limited to handling only single-table questions. However, real-world TQA problems are inherently complex and frequently involve multiple tables, which poses challenges in directly extending single-table TQA designs to handle multiple tables, primarily due to the limited extensibility of the majority of single-table TQA methods. This paper proposes AutoTQA, a novel Autonomous Tabular Question Answering framework that employs multi-agent large language models (LLMs) across multiple tables from various systems (e.g., TiDB, BigQuery). AutoTQA comprises five agents: the User, responsible for receiving the user's natural language inquiry; the Planner, tasked with creating an execution plan for the user's inquiry; the Engineer, responsible for executing the plan step-by-step; the Executor, provides various execution environments (e.g., text-to-SQL) to fulfill specific tasks assigned by the Engineer; and the Critic, responsible for judging whether to complete the user's natural language inquiry and identifying gaps between the current results and initial tasks. To facilitate the interaction between different agents, we have also devised agent scheduling algorithms. Furthermore, we have developed LinguFlow, an open-source, low-code visual programming tool, to quickly build and debug LLM-based applications, and to accelerate the creation of various external tools and execution environments. We also implemented a series of data connectors, which allows AutoTQA to access various tables from multiple systems. Extensive experiments show that AutoTQA delivers outstanding performance on four representative datasets."
+    bibtex: |
+      @article{zhu2024autotqa,
+        title={Autotqa: Towards autonomous tabular question answering through multi-agent large language models},
+        author={Zhu, Jun-Peng and Cai, Peng and Xu, Kai and Li, Li and Sun, Yishen and Zhou, Shuai and Su, Haihuang and Tang, Liu and Liu, Qi},
+        journal={Proceedings of the VLDB Endowment},
+        volume={17},
+        number={12},
+        pages={3920--3933},
+        year={2024},
+        publisher={VLDB Endowment}
+      }
+    pdf: https://www.vldb.org/pvldb/vol17/p3920-zhu.pdf
+    code: https://github.com/abcdabcd3899
+    image: ./assets/img/3.png
+    notes: "CCF-A"
+    id: autotqa
+    selected: true
+    labels: ["LLM-based TQA"]
+    year: 20240606
+    blog: https://mp.weixin.qq.com/s/TiqNMpdPXccVTz9ZiwOASw
+    video: https://youtu.be/7FYiCDupRK8
+    citations: 34  # 基于Google Scholar数据
+    under_review: false
+
+
+  - title: "Chat2query: A Zero-Shot Automatic Exploratory Data Analysis System with Large Language Models"
+    authors: "Jun-Peng Zhu, Peng Cai, Boyan Niu, Zheming Ni, Kai Xu, Jiajun Huang, Jianwei Wan, Shengbo Ma, Bing Wang, Donghui Zhang, Liu Tang, Qi Liu"
+    # corresponding_authors: ["Peng Cai","Boyan Niu", "Kai Xu"]
+    conference_short: ICDE
+    conference: 2024 IEEE 40th International Conference on Data Engineering (ICDE), 2024.
+    abstract: "Data analysts often encounter two primary chal- lenges while conducting exploratory data analysis by SQL: (1) the need to skillfully craft SQL queries, and (2) the requirement to generate suitable visualizations that enhance the interpretation of query results. The emergence of large language models (LLMs) has inaugurated a paradigm shift in text-to-SQL and data-to-chart. This paper presents Chat2Query, an LLM-empowered zero-shot automatic exploration data analysis system. Firstly, Chat2Query provides a user-friendly interface that allows users to employ natural languages to interact with the database directly. Secondly, Chat2Query offers an LLM-empowered text-to-SQL generator, SQL rewriter, SQL formatter, and data-to-chart generator. Thirdly, Chat2Query is uniquely distinguished by its underlying incorporation of the TiDB Serverless, fostering superior elasticity and scalability. This strategic integration empowers Chat2Query with the capability to seamlessly adapt to change workloads, aligning with the evolving demands of the user. We have implemented and deployed Chat2Query in the production environment, and demonstrate its usability and efficiency in three representative real-world scenarios."
+    bibtex: |
+      @inproceedings{zhu2024chat2query,
+        title={Chat2query: A zero-shot automatic exploratory data analysis system with large language models},
+        author={Zhu, Jun-Peng and Cai, Peng and Niu, Boyan and Ni, Zheming and Xu, Kai and Huang, Jiajun and Wan, Jianwei and Ma, Shengbo and Wang, Bing and Zhang, Donghui and others},
+        booktitle={2024 IEEE 40th International Conference on Data Engineering (ICDE)},
+        pages={5429--5432},
+        year={2024},
+        organization={IEEE}
+      }
+    pdf: https://ieeexplore.ieee.org/abstract/document/10597681/
+    code: https://www.pingcap.com/chat2query-an-innovative-ai-powered-sql-generator-for-faster-insights/
+    image: ./assets/img/2.png
+    notes: "CCF-A"
+    id: chat2query
+    selected: true
+    labels: ["LLM-based EDA"]
+    year: 20240203
+    blog: https://cn.pingcap.com/company-activity/two-papers-from-pingcap-were-selected-for-icde-2024/
+    video: https://youtu.be/BcDIj7H6mxw
+    citations: 17
+    under_review: false
+
+  - title: "Log Replaying for Real-Time HTAP: An Adaptive Epoch-based Two-Stage Framework"
+    authors: "Jun-Peng Zhu, Zhiwei Ye, Peng Cai, Donghui Wang, Fengyan Zhang, Dunbo Cai, Ling Qian"
+    # corresponding_authors: ["Peng Cai"]
+    conference_short: ICDE
+    conference: 2024 IEEE 40th International Conference on Data Engineering (ICDE), 2024.
+    abstract: "As real-time analytics become increasingly important, more organizations are deploying Hybrid Transactional/Analytical Processing (HTAP) systems. The HTAP systems, based on a primary/backup replication architecture, usually support real-time read-only queries on backup nodes for the data recently generated by OLTP applications on the primary node. This work is based on the observation that real-time analytical applications often require access to only a fraction of the latest modifications from OLTP applications. However, the state-of-the-art parallel log replay approaches treat all replicated transaction logs equally and replay the entire transaction logs with the same priority which does not take consideration into the OLAP query access pattern. This design can result in increased response latency for real-time applications.
+              This paper presents AETS, an Adaptive Epoch-based Two-Stage log replay framework that implements epoch-based log replay and table group transaction visibility. Simultaneously, \name also takes full account of the table access priority in real-time HTAP workload log replay. It aims to make the data required by analytical queries visible more quickly.
+              Furthermore, AETS includes a two-phase parallel log replay algorithm called TPLR, which achieves lower overhead compared to state-of-the-art algorithms through careful design.
+              We also offer an adaptive fine-grained thread resource allocation method that considers changes in table access patterns over time under thread resource constraints.
+              Our experimental results show that AETS significantly reduces visibility delay for real-time queries. And the results also show that AETS achieves significant replay throughput improvement."
+    bibtex: |
+      @inproceedings{zhu2024log,
+        title={Log Replaying for Real-Time HTAP: An Adaptive Epoch-Based Two-Stage Framework},
+        author={Zhu, Jun-Peng and Ye, Zhiwei and Cai, Peng and Wang, Donghui and Zhang, Fengyan and Cai, Dunbo and Qian, Ling},
+        booktitle={2024 IEEE 40th International Conference on Data Engineering (ICDE)},
+        pages={2096--2108},
+        year={2024},
+        organization={IEEE}
+      }
+    pdf: https://ieeexplore.ieee.org/abstract/document/10597827/
+    code: https://github.com/abcdabcd3899
+    image: ./assets/img/1.png
+    notes: "CCF-A"
+    id: log-replaying
+    selected: true
+    labels: ["Replication", "Log Replaying"]
+    year: 20231201
+    citations: 1
+    under_review: false
+
+
+  - title: "MODT: Multi-Objective Database Tuner Using Hierarchical Reinforcement Learning"
+    authors: "Kecheng Luo, Jun-Peng Zhu, Peng Cai, Aoying Zhou"
+    # corresponding_authors: ["Peng Cai"]
+    conference_short: DASFAA
+    conference: International Conference on Database Systems for Advanced Applications (DASFAA), 2024
+    abstract: "Index recommendation and knob tuning are two important database tuners. Despite substantial progress in each of them, how these tuners together affect the overall database performance is still an open question. There exists a critical research gap in addressing integrated optimization of these tuners especially with additional consideration of resource utilization. Only a few works have focused on this, with challenges including high-dimensional search space, difficulty in model fitting, and delayed evaluation bias. To address these issues, we propose MODT, a novel Multi-Objective Database Tuning framework, which combines hierarchical reinforcement learning (HRL) with a two-level recursive structure to automatically provide sequential configuration of indexes and knobs based on workload characteristics and database status. Compared with state-of-the-art integrated optimization approaches on TPC-H, TPC-DS, and Join Order Benchmark (JOB), MODT can find competitive index-knob configurations and outperforms competitors in reducing execution time and resource utilization."
+    bibtex: |
+      @inproceedings{luo2024modt,
+        title={MODT: Multi-Objective Database Tuner Using Hierarchical Reinforcement Learning},
+        author={Luo, Kecheng and Zhu, Jun-Peng and Cai, Peng and Zhou, Aoying},
+        booktitle={International Conference on Database Systems for Advanced Applications},
+        pages={331--347},
+        year={2024},
+        organization={Springer}
+      }
+    pdf: https://link.springer.com/chapter/10.1007/978-981-97-5552-3_22
+    code: https://github.com/abcdabcd3899
+    image: ./assets/img/10.png
+    notes: "CCF-B"
+    id: modt
+    selected: false
+    labels: ["Database Tuning", "AI4DB"]
+    year: 20240315
+    under_review: false
+
+
+  - title: "AutoTable: Effective and Efficient Automated Feature Transformation for Tabular Data"
+    authors: "Shanshan Huang, Jun-Peng Zhu, Fengyan Zhang, Peng Cai, Qiwen Dong"
+    # corresponding_authors: ["Peng Cai"]
+    conference_short: WISE
+    conference: International Conference on Web Information Systems Engineering (WISE), 2024
+    bibtex: |
+      @inproceedings{huang2024autotable,
+        title={AutoTable: Effective and Efficient Automated Feature Transformation for Tabular Data},
+        author={Huang, Shanshan and Zhu, Junpeng and Zhang, Fengyan and Cai, Peng and Dong, Qiwen},
+        booktitle={International Conference on Web Information Systems Engineering},
+        pages={461--476},
+        year={2024},
+        organization={Springer}
+      }
+    pdf: https://link.springer.com/chapter/10.1007/978-981-96-0579-8_32
+    code: https://github.com/abcdabcd3899
+    image: ./assets/img/11.png
+    notes: "CCF-C"
+    id: autotable
+    selected: false
+    labels: ["AI4DB"]
+    year: 20240831
+    under_review: false
