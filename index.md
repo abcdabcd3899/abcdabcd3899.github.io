@@ -9,7 +9,7 @@ layout: homepage
 
 Jun-Peng Zhu received his Ph.D. degree from the School of [Data Science and Engineering](https://dase.ecnu.edu.cn/main.htm), [East China Normal University](http://www.ecnu.edu.cn) (September 2022 - December 2025).
 He was selected for the National Key Software High-level Talent Doctoral Program jointly administered by the Ministry of Education and the Ministry of Industry and Information Technology (2022-2025).
-He is fortunate to work closely with [Prof. Peng Cai](https://scholar.google.com/citations?hl=en&user=NEwtleUAAAAJ), [Prof. Xuan Zhou](https://scholar.google.com/citations?user=YcJn26QAAAAJ), [Prof. Aoying Zhou](https://dblp.org/pid/z/AoyingZhou.html) and [Dr. Kai Xu](https://cn.linkedin.com/in/markxukai).
+He is fortunate to work closely with [Prof. Peng Cai](https://scholar.google.com/citations?hl=en&user=NEwtleUAAAAJ), [Prof. Xuan Zhou](https://xuanzhouhub.github.io/xuanzhouhub/), [Prof. Aoying Zhou](https://dblp.org/pid/z/AoyingZhou.html) and [Dr. Kai Xu](https://cn.linkedin.com/in/markxukai).
 His research interests span various database topics, with a current focus on data analysis systems through LLMs and distributed database systems.
 He is also exploring AI for Science applications in areas such as bioinformatics and healthcare.
 He worked as an R&D engineer in the [TiDB Cloud Platform Group at PingCAP](https://www.pingcap.com/tidb/cloud/), focusing on autonomous services for TiDB, under the supervision of [Dr. Kai Xu](https://cn.linkedin.com/in/markxukai), [Liu Tang](https://www.linkedin.com/in/siddontang), and [Qi Liu](https://www.linkedin.com/in/max-liu-0b2390147).
@@ -44,6 +44,7 @@ He has published more than ten papers at top-tier international database confere
 <div class="news-container">
   <div class="news-scroll">
   <ul>
+    <li><strong>[Dec. 2025]</strong> One paper about <a href="#ai4Seizure">AI for Automated Seizure Detection</a> won the Best Paper Award at IEEE BDDM! Congratulations! 🎉🎉🎉</li>
     <li><strong>[Nov. 2025]</strong> I successfully defended my Ph.D. thesis! The title of the thesis is “Automated Data Analysis through Large Language Models”. Congratulations! 🎉🎉🎉</li>
     <li><strong>[Nov. 2025]</strong> One paper about <a href="">database configuration tuning</a> is accepted to <a href="https://2026.sigmod.org/">SIGMOD 2026</a>. Congratulations! 🎉🎉🎉</li>
     <li><strong>[Sep. 2025]</strong> Attended VLDB 2025@London, United Kingdom. 🎉🎉🎉</li>
