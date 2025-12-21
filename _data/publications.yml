@@ -1,4 +1,17 @@
 main:
+  - title: "ESTune: Bayesian Uncertainty-Guided Early Stopping for Database Configuration Tuning"
+    authors: "Zhongwei Yue, Jun-Peng Zhu, Peng Cai, Xuan Zhou, Quanqing Xu, and Chuanhui Yang"
+    # corresponding_authors: [""]
+    notes: "CCF-A"
+    image: ./assets/img/estune.png
+    conference_short: SIGMOD
+    id: estune
+    conference: ACM SIGMOD/PODS International Conference on Management of Data (SIGMOD), 2026
+    selected: true
+    labels: ["AI4DB"]
+    year: 20260110
+    under_review: false
+
   - title: "A Hierarchical Wavelet Bispectrum Framework for Automated Seizure Detection"
     authors: "Wei Cao, Rachid Hedjam, Bessam Abdulrazak, Jun-Peng Zhu"
     corresponding_authors: ["Jun-Peng Zhu"]
