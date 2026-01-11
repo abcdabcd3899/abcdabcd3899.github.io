@@ -14,7 +14,7 @@ main:
 
   - title: "A Hierarchical Wavelet Bispectrum Framework for Automated Seizure Detection"
     authors: "Wei Cao, Rachid Hedjam, Bessam Abdulrazak, Jun-Peng Zhu"
-    corresponding_authors: ["Jun-Peng Zhu"]
+    corresponding_authors: ["Rachid Hedjam", "Jun-Peng Zhu"]
     image: ./assets/img/ai4Seizure.png
     notes: Best Paper Award
     conference_short: BDDM
@@ -232,7 +232,7 @@ main:
     year: 20240606
     blog: https://mp.weixin.qq.com/s/TiqNMpdPXccVTz9ZiwOASw
     video: https://youtu.be/7FYiCDupRK8
-    citations: 36  # 基于Google Scholar数据
+    citations: 37  # 基于Google Scholar数据
     under_review: false
 
 
