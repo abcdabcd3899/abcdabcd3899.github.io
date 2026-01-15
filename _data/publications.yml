@@ -26,15 +26,15 @@ main:
     under_review: false
 
   - title: "TiInsight: A SQL-based Automated Exploratory Data Analysis System with Large Language Models"
-    authors: "Jun-Peng Zhu, Boyan Niu, Peng Cai, Zheming Ni, Jianwei Wan, Kai Xu, Jiajun Huang, Shengbo Ma, Bing Wang, Xuan Zhou, Guanglei Bao, Donghui Zhang, Liu Tang, Qi Liu"
-    # corresponding_authors: ["Peng Cai"]
+    authors: "Jun-Peng Zhu, Boyan Niu, Peng Cai, Zheming Ni, Kai Xu, Jiajun Huang, Shengbo Ma, Bing Wang, Xuan Zhou, Guanglei Bao, Donghui Zhang, Liu Tang, Qi Liu"
+    pdf: https://arxiv.org/abs/2601.09404
     code: https://www.tiinsight.chat/
     image: ./assets/img/9.png
-    # notes: In Submission
+    notes: SIGMOD 2026 In Submission
     selected: false
     labels: ["Data Analytics", "LLM-based EDA"]
-    year: 2025
-    video: https://youtu.be/Xe9XphaLRF8
+    year: 20260114
+    video: https://www.youtube.com/watch?v=JzYFyYd-emI
     under_review: true
 
   - title: "Towards Automated Cross-domain Exploratory Data Analysis through Large Language Models"
