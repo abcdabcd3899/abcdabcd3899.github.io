@@ -7,8 +7,8 @@ layout: homepage
 ## <i class="fas fa-user-graduate"></i> <span id="biography">Short Biography</span>
 
 
-Jun-Peng Zhu received his Ph.D. degree from the School of [Data Science and Engineering](https://dase.ecnu.edu.cn/main.htm), [East China Normal University](http://www.ecnu.edu.cn) (September 2022 - December 2025).
-He was selected for the National Key Software High-level Talent Doctoral Program jointly administered by the Ministry of Education and the Ministry of Industry and Information Technology (2022-2025).
+Jun-Peng Zhu received his Ph.D. degree from the School of [Data Science and Engineering](https://dase.ecnu.edu.cn/main.htm), [East China Normal University](http://www.ecnu.edu.cn).
+He was selected for the National Key Software High-level Talent Doctoral Program jointly administered by the Ministry of Education and the Ministry of Industry and Information Technology.
 He is fortunate to work closely with [Prof. Peng Cai](https://scholar.google.com/citations?hl=en&user=NEwtleUAAAAJ), [Prof. Xuan Zhou](https://xuanzhouhub.github.io/xuanzhouhub/), [Prof. Aoying Zhou](https://dblp.org/pid/z/AoyingZhou.html) and [Dr. Kai Xu](https://cn.linkedin.com/in/markxukai).
 His research interests span various database topics, with a current focus on data analysis systems through LLMs and distributed database systems.
 He is also exploring AI for Science applications in areas such as bioinformatics and healthcare.
@@ -45,7 +45,6 @@ He has published more than ten papers at top-tier international database confere
   <div class="news-scroll">
   <ul>
     <li><strong>[Dec. 2025]</strong> One paper about <a href="#ai4Seizure">AI for Automated Seizure Detection</a> won the Best Paper Award at IEEE BDDM! Congratulations! 🎉🎉🎉</li>
-    <li><strong>[Nov. 2025]</strong> I successfully defended my Ph.D. thesis! The title of the thesis is “Automated Data Analysis through Large Language Models”. Congratulations! 🎉🎉🎉</li>
     <li><strong>[Nov. 2025]</strong> One paper about <a href="">database configuration tuning</a> is accepted to <a href="https://2026.sigmod.org/">SIGMOD 2026</a>. Congratulations! 🎉🎉🎉</li>
     <li><strong>[Sep. 2025]</strong> Attended VLDB 2025@London, United Kingdom. 🎉🎉🎉</li>
     <li><strong>[Jun. 2025]</strong> One paper about <a href="#tiinsight">exploratory data analysis</a> is accepted to <a href="https://vldb.org/2025/">VLDB 2025</a>. Congratulations! 🎉🎉🎉</li>
@@ -61,7 +60,6 @@ He has published more than ten papers at top-tier international database confere
     <li><strong>[May. 2024]</strong> Attended ICDE 2024@Utrecht, Netherlands. 🎉🎉🎉</li>
     <li><strong>[Feb. 2024]</strong> One paper about <a href="#chat2query">exploratory data analysis</a> is accepted to <a href="https://icde2024.github.io/">ICDE 2024</a>. Congratulations! 🎉🎉🎉</li>
     <li><strong>[Dec. 2023]</strong> One paper about <a href="#log-replaying">log replaying for HTAP workloads</a> is accepted to <a href="https://icde2024.github.io/">ICDE 2024</a>. Congratulations! 🎉🎉🎉</li>
-    <li><strong>[Oct. 2022]</strong> I was selected for the National Key Software High-level Talent Doctoral Program jointly administered by the Ministry of Education and the Ministry of Industry and Information Technology.</li>
   </ul>
   </div>
 </div>
