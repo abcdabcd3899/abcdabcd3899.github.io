@@ -30,7 +30,7 @@ main:
     pdf: https://arxiv.org/abs/2601.09404
     code: https://www.tiinsight.chat/
     image: ./assets/img/9.png
-    # notes: SIGMOD 2026 In Submission
+    notes: SIGMOD 2026 In Submission
     selected: false
     labels: ["Data Analytics", "LLM-based EDA"]
     year: 20260114
