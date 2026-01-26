@@ -178,6 +178,7 @@ main:
     selected: true
     labels: ["Storage Engine", "Distributed Database Systems"]
     year: 20250226
+    citations: 1  # 基于Google Scholar数据
     under_review: false
 
   - title: "SylphDB: An Active and Adaptive LSM Engine for Update-Intensive Workloads"
