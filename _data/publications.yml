@@ -261,7 +261,7 @@ main:
     year: 20240203
     blog: https://cn.pingcap.com/company-activity/two-papers-from-pingcap-were-selected-for-icde-2024/
     video: https://youtu.be/BcDIj7H6mxw
-    citations: 19
+    citations: 20
     under_review: false
 
   - title: "Log Replaying for Real-Time HTAP: An Adaptive Epoch-based Two-Stage Framework"
