@@ -28,102 +28,11 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/publications-no-dark-mode.css">
     {% endif %}
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/navbar.css">
 
-    <!-- 添加返回主页按钮的样式 -->
-    <style>
-      .back-home {
-        position: absolute;
-        top: 20px;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 1000;
-      }
-
-      .back-home a {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        padding: 8px 16px;
-        width: 100%;
-        height: 100%;
-        background-color: var(--bg-color);
-        color: var(--font-color) !important;
-        border: 1px solid var(--border-color);
-        border-radius: 25px;
-        text-decoration: none;
-        transition: all 0.3s ease;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-        font-size: 0.9em;
-        cursor: pointer;
-      }
-
-      .back-home a:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        text-decoration: none;
-        border-bottom: 1px solid var(--border-color);
-        background-color: var(--primary-color);
-        color: white !important;
-      }
-
-      .back-home i {
-        margin-right: 8px;
-        font-size: 0.9em;
-      }
-
-      /* full publication 与 top 距离调整 */
-      .content {
-        max-width: 1200px;
-        margin: 10px auto 20px;
-        padding: 0 20px;
-      }
-
-      [data-theme="dark"] .back-home a {
-        background-color: var(--bg-color);
-        border-color: var(--border-color);
-        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-      }
-
-      [data-theme="dark"] .back-home a:hover {
-        background-color: var(--primary-color);
-        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-      }
-
-      /* 移动设备适配 */
-      @media (max-width: 768px) {
-        .content {
-          margin-top: 40px;
-        }
-        .back-home {
-          top: 15px;
-        }
-        .back-home a {
-          padding: 6px 12px;
-          font-size: 0.85em;
-        }
-      }
-    </style>
   </head>
   <body class="publications-page">
-    <!-- 修改返回主页按钮的链接 -->
-    <div class="back-home-btn">
-      <a href="{{ site.baseurl }}/" class="home-link">
-        <i class="fas fa-arrow-left"></i>
-        <span>Back to Home</span>
-      </a>
-    </div>
-
-    <!-- 深色模式切换按钮 -->
-    <div class="top-bar">
-      <div class="container">
-        <div class="dark-mode-toggle-top">
-          <button id="dark-mode-btn" aria-label="Toggle dark mode">
-            <i class="fas fa-moon"></i>
-          </button>
-        </div>
-      </div>
-    </div>
-
+    {% include navbar.html %}
     <!-- 主要内容 -->
     <div class="content">
       {{ content }}
@@ -162,6 +71,8 @@
 
     <!-- 引入其他必要的脚本 -->
     <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+    <script>const site = { baseurl: "{{ site.baseurl }}" };</script>
+    <script src="{{ site.baseurl }}/assets/js/navbar.js"></script>
     {% include back-to-top.html %}
   </body>
 </html>

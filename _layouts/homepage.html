@@ -34,18 +34,11 @@
     <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
     {% endif %}
     <link rel="stylesheet" href="./assets/css/custom.css">
+    <link rel="stylesheet" href="./assets/css/navbar.css">
 
   </head>
   <body>
-    <div class="top-bar">
-      <div class="container">
-        <div class="dark-mode-toggle-top">
-          <button id="dark-mode-btn" aria-label="Toggle dark mode">
-            <i class="fas fa-moon"></i>
-          </button>
-        </div>
-      </div>
-    </div>
+    {% include navbar.html %}
     <div class="wrapper">
       <header>
         {% if site.avatar %}
@@ -159,5 +152,7 @@
     <!-- 引入自定义 JavaScript 文件 -->
     <script src="{{ site.baseurl }}/assets/js/typing-effect.js"></script>
     <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+    <script>const site = { baseurl: "{{ site.baseurl }}" };</script>
+    <script src="{{ site.baseurl }}/assets/js/navbar.js"></script>
   </body>
 </html>

@@ -4,7 +4,7 @@ layout: homepage
 
 <!-- <div style="margin-top: 20px;"></div> -->
 
-## <i class="fas fa-user-graduate"></i> <span id="biography">Short Biography</span>
+<h2 id="about-me"><i class="fas fa-user-graduate"></i> Short Biography</h2>
 
 
 Jun-Peng Zhu received his Ph.D. degree from the School of [Data Science and Engineering](https://dase.ecnu.edu.cn/main.htm), [East China Normal University](http://www.ecnu.edu.cn).
@@ -64,15 +64,13 @@ He has published more than ten papers at top-tier international database confere
   </div>
 </div>
 
-## <i class="fas fa-book-open"></i> <span id="publications">Selected Publications</span> <a href="/publications" style="font-size: 0.9em; margin-left: 10px;">[View All]</a>
+<h2 id="publications"><i class="fas fa-book-open"></i> Selected Publications <a href="/publications" style="font-size: 0.9em; margin-left: 10px;">[View All]</a></h2>
 
 For more details, please view the [Google Scholar profile](https://scholar.google.com/citations?user=zZw_u0IAAAAJ).
 
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/services.md %}
-
-## <i class="fas fa-briefcase"></i> <span id="experience">Experience</span>
+<h2 id="experience"><i class="fas fa-award"></i> Experience</h2>
 
 
 <h4 style="margin:0 10px 0;">Database R&D Engineer</h4>
@@ -88,7 +86,9 @@ For more details, please view the [Google Scholar profile](https://scholar.googl
 </ul>
 
 
-{% include_relative _includes/awards.md %}
+<h2 id="services"><i class="fas fa-handshake-angle"></i> Services</h2>
+
+{% include_relative _includes/services.md %}
 
 ## <i class="fas fa-map-marker-alt"></i> <span id="visitors">Visitors</span>
 

@@ -9,6 +9,14 @@
   padding: 10px !important;
 }
 
+/* Style for single-column content pages like Publications */
+body.publications-page .content {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+
 .news-scroll {
   height: 100%;
   overflow-y: auto;
