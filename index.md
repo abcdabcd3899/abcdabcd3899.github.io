@@ -35,7 +35,7 @@ He has published more than ten papers at top-tier international database confere
   </li>
   <li>
     <b>AI for Database Systems:</b>
-    <a href="">ESTune (SIGMOD'26)</a>, <a href="modt">MODT (DASFAA'24)</a>, <a href="autotable">AutoTable (WISE'24)</a>
+    <a href="#mertune">MerTune (ICDE'26)</a>, <a href="#estune">ESTune (SIGMOD'26)</a>, <a href="#modt">MODT (DASFAA'24)</a>, <a href="#autotable">AutoTable (WISE'24)</a>
   </li>
 </ul>
 
@@ -44,6 +44,7 @@ He has published more than ten papers at top-tier international database confere
 <div class="news-container">
   <div class="news-scroll">
   <ul>
+    <li><strong>[Feb. 2026]</strong> One paper about <a href="">database configuration tuning</a> is accepted to <a href="https://icde2026.github.io/">ICDE 2026</a>. Congratulations! 🎉🎉🎉</li>
     <li><strong>[Dec. 2025]</strong> One paper about <a href="#ai4Seizure">AI for Automated Seizure Detection</a> won the Best Paper Award at IEEE BDDM! Congratulations! 🎉🎉🎉</li>
     <li><strong>[Nov. 2025]</strong> One paper about <a href="">database configuration tuning</a> is accepted to <a href="https://2026.sigmod.org/">SIGMOD 2026</a>. Congratulations! 🎉🎉🎉</li>
     <li><strong>[Sep. 2025]</strong> Attended VLDB 2025@London, United Kingdom. 🎉🎉🎉</li>
