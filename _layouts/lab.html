@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <title>{{ site.title }} - Students</title>
+    <title>{{ site.title }} - Lab</title>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,20 +22,20 @@
     {% endif %}
     {% if site.auto_dark_mode %}
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/students.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/lab.css">
     {% else %}
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style-no-dark-mode.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/students-no-dark-mode.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/lab-no-dark-mode.css">
     {% endif %}
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/navbar.css">
 
   </head>
-  <body class="students-page">
+  <body class="lab-page">
     {% include navbar.html %}
     <!-- 主要内容 -->
     <div class="content">
-      {% include students.md %}
+      {{ content }}
     </div>
 
     <!-- 深色模式切换脚本 -->

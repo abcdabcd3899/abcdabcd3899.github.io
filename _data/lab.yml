@@ -1,23 +1,20 @@
+- name: "Jun-Peng Zhu"
+  photo: "./assets/img/icon.png"
+  research: "Associate Professor"
+  homepage: "https://abcdabcd3899.github.io/"
+  duration: ""
+
+# - name: "Kai Xu"
+#   photo: "assets/img/avatar.png"
+#   research: "Ph.D., VP of R&D, TiDB"
+#   homepage: "#"
+#   duration: ""
+
 - name: "Rui Wan"
   photo: "assets/img/wanrui.jpg"
   research: "Planning"
   homepage: "#"
   duration: "Aug 2025 - Present"
-  research_group: "Automated Data Analysis"
-
-- name: "Mingyu Liao"
-  photo: "assets/img/avatar.png"
-  research: "Planning"
-  homepage: "#"
-  duration: "Nov 2025 - Present"
-  research_group: "Automated Data Analysis"
-
-
-- name: "Mingshuo Song"
-  photo: "assets/img/avatar.png"
-  research: "Planning"
-  homepage: "#"
-  duration: "Dec 2025 - Present"
   research_group: "Automated Data Analysis"
 
 - name: "Yinuo Chen"
@@ -53,6 +50,21 @@
   research: "Causal Analysis"
   homepage: "#"
   duration: "Aug 2025 - Present"
+  research_group: "Automated Data Analysis"
+
+- name: "Mingyu Liao"
+  photo: "assets/img/avatar.png"
+  research: "Planning"
+  homepage: "#"
+  duration: "Nov 2025 - Present"
+  research_group: "Automated Data Analysis"
+
+
+- name: "Mingshuo Song"
+  photo: "assets/img/avatar.png"
+  research: "Planning"
+  homepage: "#"
+  duration: "Dec 2025 - Present"
   research_group: "Automated Data Analysis"
 
 # New placeholder students for other research groups

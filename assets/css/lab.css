@@ -1,0 +1,177 @@
+.lab-page .lab-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.lab-page .lab-logo {
+  height: 50px; /* Adjust as needed */
+  margin-right: 0;
+}
+
+.lab-page .lab-content-wrapper > h1,
+.lab-page .research-areas > h2,
+.lab-page .members-section > h2,
+.lab-page .member-group-title,
+.lab-page .research-group-title {
+  text-align: center;
+}
+
+.lab-page .lab-content-wrapper {
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0 auto; /* Center the content */
+  padding: 20px 20px; /* Add padding on sides and top/bottom */
+}
+
+/* Keyframe animation for fade-in effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.lab-page .research-group-title,
+.lab-page .member-group-title {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+  background-color: #f0f0f0;
+  padding: 10px 15px;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.lab-page .lab-member-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.lab-page .lab-member-card {
+  background: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+  /* Animation */
+  opacity: 0;
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+.lab-page .lab-member-card-inner {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+/* Staggered animation delay for the first 10 cards */
+.lab-page .lab-member-card:nth-child(1) { animation-delay: 0.1s; }
+.lab-page .lab-member-card:nth-child(2) { animation-delay: 0.2s; }
+.lab-page .lab-member-card:nth-child(3) { animation-delay: 0.3s; }
+.lab-page .lab-member-card:nth-child(4) { animation-delay: 0.4s; }
+.lab-page .lab-member-card:nth-child(5) { animation-delay: 0.5s; }
+.lab-page .lab-member-card:nth-child(6) { animation-delay: 0.6s; }
+.lab-page .lab-member-card:nth-child(7) { animation-delay: 0.7s; }
+.lab-page .lab-member-card:nth-child(8) { animation-delay: 0.8s; }
+.lab-page .lab-member-card:nth-child(9) { animation-delay: 0.9s; }
+.lab-page .lab-member-card:nth-child(10) { animation-delay: 1.0s; }
+
+
+.lab-page .lab-member-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.lab-page .lab-member-photo {
+  flex-shrink: 0;
+  width: 100px; /* Fixed width for the photo */
+  height: 100px;
+  margin-right: 20px;
+}
+
+.lab-page .lab-member-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%; /* Make the image a circle */
+}
+
+.lab-page .lab-member-info {
+  flex-grow: 1;
+  text-align: left; /* Align text to the left */
+}
+
+.lab-page .lab-member-name {
+  font-family: 'Crimson Pro', serif;
+  font-size: 1.3em;
+  font-weight: 600;
+  margin: 0 0 5px 0;
+}
+
+.lab-page .lab-member-name a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.lab-page .lab-member-name a:hover {
+  color: #0A4B8F;
+}
+
+.lab-page .lab-member-duration {
+  font-family: 'Crimson Pro', serif;
+  font-size: 0.9em;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.lab-page .lab-member-research {
+  font-family: 'Crimson Pro', serif;
+  font-size: 1em;
+  color: #555;
+  font-style: italic;
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+  .lab-page .lab-member-card-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .lab-page .lab-member-photo {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  
+  .lab-page .lab-member-info {
+    text-align: center;
+  }
+}
+
+.lab-page .research-areas {
+  margin-bottom: 2rem;
+}
+
+
+
+.lab-page .pi-container {
+  margin-bottom: 2rem;
+}
+
+.lab-page .faculty-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-bottom: 2rem;
+}
+

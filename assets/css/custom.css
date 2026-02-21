@@ -150,7 +150,6 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   color: var(--heading-color);
   font-family: "Times New Roman", Times, serif !important;
-  text-align: left !important;
 }
 
 .theme-switch-wrapper {
@@ -1006,10 +1005,7 @@ p, li, .publications .author, .publications .periodical, .publications .title {
   text-justify: inter-word !important;
 }
 
-/* 保持标题居左对齐 */
-h1, h2, h3, h4, h5, h6 {
-  text-align: left !important;
-}
+
 
 /* 保持特定元素的原始对齐方式 */
 .news-container, .links, .abbr, div[style*="text-align: center"] {
