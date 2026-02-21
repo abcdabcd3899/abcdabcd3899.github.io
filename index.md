@@ -7,7 +7,9 @@ layout: homepage
 <h2 id="about-me"><i class="fas fa-user-graduate"></i> Short Biography</h2>
 
 
-Jun-Peng Zhu received his Ph.D. degree from the School of [Data Science and Engineering](https://dase.ecnu.edu.cn/main.htm), [East China Normal University](http://www.ecnu.edu.cn).
+Jun-Peng Zhu is currently an Associate Professor at Northwest A&F University.
+He is also a member of the [PingCAP TiDB team](https://www.pingcap.com/tidb/cloud/).
+He received his Ph.D. degree from the School of [Data Science and Engineering](https://dase.ecnu.edu.cn/main.htm), [East China Normal University](http://www.ecnu.edu.cn).
 He was selected for the National Key Software High-level Talent Doctoral Program jointly administered by the Ministry of Education and the Ministry of Industry and Information Technology.
 He is fortunate to work closely with [Prof. Peng Cai](https://scholar.google.com/citations?hl=en&user=NEwtleUAAAAJ), [Prof. Xuan Zhou](https://xuanzhouhub.github.io/xuanzhouhub/), [Prof. Aoying Zhou](https://dblp.org/pid/z/AoyingZhou.html) and [Dr. Kai Xu](https://cn.linkedin.com/in/markxukai).
 His research interests span various database topics, with a current focus on data analysis systems through LLMs and distributed database systems.
