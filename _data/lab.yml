@@ -46,7 +46,7 @@
   research_group: "Automated Data Analysis"
 
 - name: "Suxian Wei"
-  photo: "assets/img/avatar.png"
+  photo: "assets/img/weisuxian.jpg"
   research: "Causal Analysis"
   homepage: "#"
   duration: "Aug 2025 - Present"
@@ -67,12 +67,40 @@
   duration: "Dec 2025 - Present"
   research_group: "Automated Data Analysis"
 
-# New placeholder students for other research groups
-- name: "You"
+- name: "Huiyi Han"
   photo: "assets/img/avatar.png"
-  research: "This position is waiting for you"
+  research: "Ambiguity Resolution"
   homepage: "#"
-  duration: "Mar 2024 - Present"
+  duration: "Feb 2026 - Present"
+  research_group: "Automated Data Analysis"
+
+- name: "Qixiang Ju"
+  photo: "assets/img/avatar.png"
+  research: "Ambiguity Resolution"
+  homepage: "#"
+  duration: "Feb 2026 - Present"
+  research_group: "Automated Data Analysis"
+
+- name: "Tiantian Sun"
+  photo: "assets/img/avatar.png"
+  research: "Ambiguity Resolution"
+  homepage: "#"
+  duration: "Feb 2026 - Present"
+  research_group: "Automated Data Analysis"
+
+
+- name: "Wenhuan Rong"
+  photo: "assets/img/rongwenhuan.jpg"
+  research: "Log Replication"
+  homepage: "#"
+  duration: "Feb 2026 - Present"
+  research_group: "Distributed Database Systems"
+
+- name: "Dingli Chen"
+  photo: "assets/img/avatar.png"
+  research: "Log Replication"
+  homepage: "#"
+  duration: "Feb 2026 - Present"
   research_group: "Distributed Database Systems"
 
 - name: "You"
