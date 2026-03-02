@@ -14,7 +14,7 @@ main:
 
   - title: "Automatic Parameter Tuning for Compaction in LSM-Tree based Databases"
     authors: "Pinshan Cao, Peng Cai, Xuan Zhou, Jun-Peng Zhu, Kecheng Luo, Sijia Li, Quanqing Xu, Chuanhui Yang"
-    # corresponding_authors: [""]
+    corresponding_authors: ["Peng Cai", "Jun-Peng Zhu"]
     notes: "CCF-A"
     image: ./assets/img/mertune.png
     conference_short: ICDE
