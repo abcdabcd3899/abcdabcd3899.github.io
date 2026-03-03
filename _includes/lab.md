@@ -28,7 +28,6 @@
                   <a href="{{ member.homepage }}">{{ member.name }}</a>
                 </h3>
                 <p class="lab-member-duration">{{ member.duration }}</p>
-                <p class="lab-member-research">{{ member.research }}</p>
               </div>
             </div>
           </div>
@@ -37,4 +36,3 @@
     {% endfor %}
   </div>
 </div>
-
