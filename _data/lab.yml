@@ -4,12 +4,6 @@
   homepage: "https://abcdabcd3899.github.io/"
   duration: ""
 
-# - name: "Kai Xu"
-#   photo: "assets/img/avatar.png"
-#   research: "Ph.D., VP of R&D, TiDB"
-#   homepage: "#"
-#   duration: ""
-
 - name: "Rui Wan"
   photo: "assets/img/wanrui.jpg"
   homepage: "#"
@@ -89,6 +83,17 @@
   duration: "Feb 2026 - Present"
   research_group: "Automated Data Analysis"
 
+- name: "Sisi Cao"
+  photo: "assets/img/avatar.png"
+  homepage: "#"
+  duration: "Mar 2026 - Present"
+  research_group: "Automated Data Analysis"
+
+- name: "Yuan Liang"
+  photo: "assets/img/avatar.png"
+  homepage: "#"
+  duration: "Mar 2026 - Present"
+  research_group: "Automated Data Analysis"
 
 - name: "Wenhuan Rong"
   photo: "assets/img/rongwenhuan.jpg"
