@@ -13,7 +13,6 @@
 .lab-page .lab-content-wrapper > h1,
 .lab-page .research-areas > h2,
 .lab-page .members-section > h2,
-.lab-page .member-group-title,
 .lab-page .research-group-title {
   text-align: center;
 }
@@ -37,7 +36,7 @@
 }
 
 .lab-page .research-group-title,
-.lab-page .member-group-title {
+.lab-page .research-group-title {
   margin-top: 2rem;
   margin-bottom: 1rem;
   color: #333;

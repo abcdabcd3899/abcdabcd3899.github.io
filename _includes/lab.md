@@ -12,12 +12,10 @@
 
   <div class="members-section">
     <h2>Members</h2>
-
-    {% assign members_by_group = site.data.lab | group_by: "research_group" %}
-    {% for group in members_by_group %}
-      <h3 class="member-group-title">{{ group.name }}</h3>
-      <div class="lab-member-container">
-        {% for member in group.items %}
+    <h3 class="research-group-title">Principal Investigator (PI)</h3>
+    <div class="lab-member-container">
+      {% for member in site.data.lab %}
+        {% if member.name == "Jun-Peng Zhu" %}
           <div class="lab-member-card">
             <div class="lab-member-card-inner">
               <div class="lab-member-photo">
@@ -31,8 +29,29 @@
               </div>
             </div>
           </div>
-        {% endfor %}
-      </div>
-    {% endfor %}
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <h3 class="research-group-title">Students</h3>
+    <div class="lab-member-container">
+      {% for member in site.data.lab %}
+        {% unless member.name == "Jun-Peng Zhu" %}
+          <div class="lab-member-card">
+            <div class="lab-member-card-inner">
+              <div class="lab-member-photo">
+                <img src="{{ member.photo | relative_url }}" alt="{{ member.name }}">
+              </div>
+              <div class="lab-member-info">
+                <h3 class="lab-member-name">
+                  <a href="{{ member.homepage }}">{{ member.name }}</a>
+                </h3>
+                <p class="lab-member-duration">{{ member.duration }}</p>
+              </div>
+            </div>
+          </div>
+        {% endunless %}
+      {% endfor %}
+    </div>
   </div>
 </div>

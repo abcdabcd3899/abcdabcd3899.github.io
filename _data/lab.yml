@@ -106,9 +106,3 @@
   homepage: "#"
   duration: "Feb 2026 - Present"
   research_group: "Distributed Database Systems"
-
-- name: "You"
-  photo: "assets/img/avatar.png"
-  homepage: "#"
-  duration: "Mar 2024 - Present"
-  research_group: "AI for Database Systems"
