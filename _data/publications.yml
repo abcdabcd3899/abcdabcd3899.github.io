@@ -43,12 +43,15 @@ main:
     pdf: https://arxiv.org/abs/2601.09404
     code: https://www.tiinsight.chat/
     image: ./assets/img/9.png
-    notes: SIGMOD 2026 In Submission
-    selected: false
+    conference: ACM SIGMOD/PODS International Conference on Management of Data (SIGMOD), 2026
+    conference_short: SIGMOD
+    notes: CCF-A
+    selected: true
+    id: tiinsight2026
     labels: ["Data Analytics", "LLM-based EDA"]
-    year: 20260114
+    year: 202600308
     video: https://www.youtube.com/watch?v=JzYFyYd-emI
-    under_review: true
+    under_review: false
 
   - title: "Towards Automated Cross-domain Exploratory Data Analysis through Large Language Models"
     authors: "Jun-Peng Zhu, Boyan Niu, Peng Cai, Zheming Ni, Jianwei Wan, Kai Xu, Jiajun Huang, Shengbo Ma, Bing Wang, Xuan Zhou, Guanglei Bao, Donghui Zhang, Liu Tang, Qi Liu"

@@ -47,6 +47,7 @@ He has published more than ten papers at top-tier international database confere
 <div class="news-container">
   <div class="news-scroll">
   <ul>
+    <li><strong>[Mar. 2026]</strong> One paper about <a href="#tiinsight2026">exploratory data analysis</a> is accepted to <a href="https://2026.sigmod.org/">SIGMOD 2026</a>. Congratulations! 🎉🎉🎉</li>
     <li><strong>[Feb. 2026]</strong> One paper about <a href="">database configuration tuning</a> is accepted to <a href="https://icde2026.github.io/">ICDE 2026</a>. Congratulations! 🎉🎉🎉</li>
     <li><strong>[Dec. 2025]</strong> One paper about <a href="#ai4Seizure">AI for Automated Seizure Detection</a> won the Best Paper Award at IEEE BDDM! Congratulations! 🎉🎉🎉</li>
     <li><strong>[Nov. 2025]</strong> One paper about <a href="">database configuration tuning</a> is accepted to <a href="https://2026.sigmod.org/">SIGMOD 2026</a>. Congratulations! 🎉🎉🎉</li>
