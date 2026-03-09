@@ -12,10 +12,11 @@ Jun-Peng Zhu is currently an Associate Professor at Northwest A&F University.
 He is also a member of the [PingCAP TiDB team](https://www.pingcap.com/tidb/cloud/).
 He received his Ph.D. degree from the School of [Data Science and Engineering](https://dase.ecnu.edu.cn/main.htm), [East China Normal University](http://www.ecnu.edu.cn).
 He was selected for the National Key Software High-level Talent Doctoral Program jointly administered by the Ministry of Education and the Ministry of Industry and Information Technology.
-He is fortunate to work closely with [Prof. Peng Cai](https://scholar.google.com/citations?hl=en&user=NEwtleUAAAAJ), [Prof. Xuan Zhou](https://xuanzhouhub.github.io/xuanzhouhub/), [Prof. Aoying Zhou](https://dblp.org/pid/z/AoyingZhou.html) and [Dr. Kai Xu](https://cn.linkedin.com/in/markxukai).
+<!-- He is fortunate to work closely with [Prof. Peng Cai](https://scholar.google.com/citations?hl=en&user=NEwtleUAAAAJ), [Prof. Xuan Zhou](https://xuanzhouhub.github.io/xuanzhouhub/), [Prof. Aoying Zhou](https://dblp.org/pid/z/AoyingZhou.html) and [Dr. Kai Xu](https://cn.linkedin.com/in/markxukai). -->
 His research interests span various database topics, with a current focus on data analysis systems through LLMs and distributed database systems.
 He is also exploring AI for Science applications in areas such as bioinformatics and healthcare.
-He worked as an R&D engineer in the [TiDB Cloud Platform Group at PingCAP](https://www.pingcap.com/tidb/cloud/), focusing on autonomous services for TiDB, under the supervision of [Dr. Kai Xu](https://cn.linkedin.com/in/markxukai), [Liu Tang](https://www.linkedin.com/in/siddontang), and [Qi Liu](https://www.linkedin.com/in/max-liu-0b2390147).
+He worked as an R&D engineer in the [TiDB Cloud Platform Group at PingCAP](https://www.pingcap.com/tidb/cloud/), focusing on autonomous services for TiDB.
+<!-- under the supervision of [Dr. Kai Xu](https://cn.linkedin.com/in/markxukai), [Liu Tang](https://www.linkedin.com/in/siddontang), and [Qi Liu](https://www.linkedin.com/in/max-liu-0b2390147). -->
 Previously, he worked as a kernel R&D engineer at the [VMware Greenplum database team](https://www.vmware.com/products/app-platform/tanzu-greenplum), focusing on nested transactions and query optimization for MPP distributed database systems.
 He has published more than ten papers at top-tier international database conferences in the field of data management, such as <strong>SIGMOD</strong>, <strong>VLDB</strong>, and <strong>ICDE</strong>.
  Feel free to reach out for potential collaborations.
