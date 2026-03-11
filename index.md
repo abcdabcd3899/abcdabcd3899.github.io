@@ -7,7 +7,7 @@ layout: homepage
 <h2 id="about-me"><i class="fas fa-user-graduate"></i> Short Biography</h2>
 
 
-Jun-Peng Zhu is currently an Associate Professor at Northwest A&F University.
+Jun-Peng Zhu is currently an associate professor at Northwest A&F University.
 <!-- He is the  of the [Data System Lab](https://abcdabcd3899.github.io/lab/). -->
 He is also a member of the [PingCAP TiDB team](https://www.pingcap.com/tidb/cloud/).
 He received his Ph.D. degree from the School of [Data Science and Engineering](https://dase.ecnu.edu.cn/main.htm), [East China Normal University](http://www.ecnu.edu.cn).
