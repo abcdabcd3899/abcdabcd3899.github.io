@@ -8,7 +8,6 @@ layout: homepage
 
 
 Jun-Peng Zhu is currently an associate professor at Northwest A&F University.
-<!-- He is the  of the [Data System Lab](https://abcdabcd3899.github.io/lab/). -->
 He is also a member of the [PingCAP TiDB team](https://www.pingcap.com/tidb/cloud/).
 He received his Ph.D. degree from the School of [Data Science and Engineering](https://dase.ecnu.edu.cn/main.htm), [East China Normal University](http://www.ecnu.edu.cn).
 He was selected for the National Key Software High-level Talent Doctoral Program jointly administered by the Ministry of Education and the Ministry of Industry and Information Technology.
