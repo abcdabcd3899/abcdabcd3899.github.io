@@ -249,7 +249,7 @@ main:
     year: 20240606
     blog: https://mp.weixin.qq.com/s/TiqNMpdPXccVTz9ZiwOASw
     video: https://youtu.be/7FYiCDupRK8
-    citations: 47  # 基于Google Scholar数据
+    citations: 49  # 基于Google Scholar数据
     under_review: false
 
 
@@ -278,7 +278,7 @@ main:
     year: 20240203
     blog: https://cn.pingcap.com/company-activity/two-papers-from-pingcap-were-selected-for-icde-2024/
     video: https://youtu.be/BcDIj7H6mxw
-    citations: 23
+    citations: 24
     under_review: false
 
   - title: "Log Replaying for Real-Time HTAP: An Adaptive Epoch-based Two-Stage Framework"
