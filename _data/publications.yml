@@ -308,7 +308,7 @@ main:
     selected: true
     labels: ["Replication", "Log Replaying"]
     year: 20231201
-    citations: 1
+    citations: 2
     under_review: false
 
 
