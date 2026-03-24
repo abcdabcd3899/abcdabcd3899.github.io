@@ -1,4 +1,18 @@
 main:
+  - title: "SCOUT: A Practical Framework for Flaky Failure Triage in Distributed Database Continuous Integration"
+    authors: "Jun-Peng Zhu, Qizhi Wang, Yulong Zhai, Yishen Sun, Sen Chen, Kai Xu, Peng Cai, Hongming Zhang, Heng Long, Liu Tang, Qi Liu"
+    # corresponding_authors: [""]
+    notes: "In Submission"
+    pdf: assets/files/scout.pdf
+    image: ./assets/img/scout.png
+    conference_short: arxiv
+    id: estune
+    conference: arxiv, 2026.03.24
+    selected: true
+    labels: ["AI4DB"]
+    year: 20260324
+    under_review: false
+
   - title: "ESTune: Bayesian Uncertainty-Guided Early Stopping for Database Configuration Tuning"
     authors: "Zhongwei Yue, Jun-Peng Zhu, Peng Cai, Xuan Zhou, Quanqing Xu, and Chuanhui Yang"
     # corresponding_authors: [""]
