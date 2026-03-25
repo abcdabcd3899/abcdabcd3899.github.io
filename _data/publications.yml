@@ -1,12 +1,12 @@
 main:
-  - title: "SCOUT: A Practical Framework for Flaky Failure Triage in Distributed Database Continuous Integration"
+  - title: "A Practical Framework for Flaky Failure Triage in Distributed Database Continuous Integration"
     authors: "Jun-Peng Zhu, Qizhi Wang, Yulong Zhai, Yishen Sun, Sen Chen, Kai Xu, Peng Cai, Hongming Zhang, Heng Long, Liu Tang, Qi Liu"
     # corresponding_authors: [""]
     notes: "In Submission"
-    pdf: assets/files/scout.pdf
+    pdf: https://arxiv.org/pdf/2603.23054
     image: ./assets/img/scout.png
     conference_short: arxiv
-    id: estune
+    id: scout
     conference: arxiv, 2026.03.24
     selected: true
     labels: ["AI4DB"]
