@@ -1286,6 +1286,18 @@ header .image.avatar {
   color: #b28704;
 }
 
+/* AI4Science 标签（兼容 AI4Science） */
+.publications .links .tag-ai4science {
+  background-color: rgba(255, 193, 7, 0.18);
+  color: #b28704;
+}
+
+/* Deep Learning 标签 */
+.publications .links .tag-deep-learning {
+  background-color: rgba(25, 118, 210, 0.12);
+  color: #1976d2;
+}
+
 /* Data Analytics 标签 */
 .publications .links .tag-data-analytics {
   background-color: rgba(156, 39, 176, 0.1);
@@ -1296,6 +1308,12 @@ header .image.avatar {
 .publications .links .tag-storage-engine {
   background-color: rgba(46, 125, 50, 0.1);
   color: #2e7d32;
+}
+
+/* LSM-tree 标签 */
+.publications .links .tag-lsm-tree {
+  background-color: rgba(96, 125, 139, 0.12);
+  color: #546e7a;
 }
 
 /* Distributed Systems 标签 */
@@ -1315,6 +1333,12 @@ header .image.avatar {
 .publications .links .tag-replication {
   background-color: rgba(233, 30, 99, 0.1);
   color: #e91e63;
+}
+
+/* Log Replaying 标签 */
+.publications .links .tag-log-replaying {
+  background-color: rgba(255, 152, 0, 0.12);
+  color: #ef6c00;
 }
 
 /* Deadlock Detection 标签 */
@@ -1388,6 +1412,16 @@ header .image.avatar {
 [data-theme="dark"] .publications .links .tag-ai-for-science {
   background-color: rgba(255, 193, 7, 0.3);
   color: #ffd54f;
+}
+
+[data-theme="dark"] .publications .links .tag-ai4science {
+  background-color: rgba(255, 193, 7, 0.3);
+  color: #ffd54f;
+}
+
+[data-theme="dark"] .publications .links .tag-deep-learning {
+  background-color: rgba(25, 118, 210, 0.25);
+  color: #90caf9;
 }
 
 [data-theme="dark"] .publications .links .tag-data-analytics {
@@ -1943,10 +1977,14 @@ div.pub-notes, .pub-notes strong, .pub-notes i {
 .tag-llm-based-eda { background: #c8fff4; color: #00695c; border-color: #c8fff4; }
 .tag-llm-based-tqa { background: #d1c4e9; color: #4527a0; border-color: #d1c4e9; }
 .tag-ai-for-science { background: #ffecb3; color: #b28704; border-color: #ffecb3; }
+.tag-ai4science { background: #ffecb3; color: #b28704; border-color: #ffecb3; }
+.tag-deep-learning { background: #bbdefb; color: #1565c0; border-color: #bbdefb; }
 .tag-distributed-database-systems { background: #c5e1a5; color: #33691e; border-color: #c5e1a5; }
 .tag-coordination-services { background: #f8bbd0; color: #ad1457; border-color: #f8bbd0; }
 .tag-storage-engine { background: #d1c4e9; color: #4527a0; border-color: #d1c4e9; }
+.tag-lsm-tree { background: #cfd8dc; color: #455a64; border-color: #cfd8dc; }
 .tag-replication { background: #ffccbc; color: #bf360c; border-color: #ffccbc; }
+.tag-log-replaying { background: #ffe0b2; color: #e65100; border-color: #ffe0b2; }
 .tag-deadlock-detection { background: #b3e5fc; color: #01579b; border-color: #b3e5fc; }
 .tag-ai4db { background: #fff9c4; color: #827717; border-color: #fff9c4; }
 .tag-database-tuning { background: #c8e6c9; color: #1b5e20; border-color: #c8e6c9; }
