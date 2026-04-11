@@ -59,6 +59,7 @@ main:
     notes: Best Paper Award
     conference_short: BDDM
     id: ai4Seizure
+    pdf: https://ieeexplore.ieee.org/document/11442079
     conference: IEEE International Conference on Big Data and Data Mining, 2025
     selected: true
     labels: ["AI for Science"]
