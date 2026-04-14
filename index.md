@@ -76,6 +76,10 @@ For more details, please view the [Google Scholar profile](https://scholar.googl
 
 {% include_relative _includes/publications.md %}
 
+<h2 id="awards"><i class="fas fa-trophy"></i> Honors and Awards</h2>
+
+{% include_relative _includes/awards.md %}
+
 <h2 id="experience"><i class="fas fa-award"></i> Experience</h2>
 
 
@@ -90,7 +94,6 @@ For more details, please view the [Google Scholar profile](https://scholar.googl
 <ul style="margin:0 0 20px;">
   <li><strong>VMware</strong>, Greenplum Database Team</li>
 </ul>
-
 
 <h2 id="services"><i class="fas fa-handshake-angle"></i> Services</h2>
 

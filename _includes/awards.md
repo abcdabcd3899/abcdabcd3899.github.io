@@ -1,5 +1,3 @@
-## <i class="fas fa-trophy"></i> Honors and Awards
-
 <ul style="margin:0 0 20px;">
   <li> Outstanding Doctoral Graduate of Shanghai, 2026</li>
   <li> East China Normal University Presidential Scholarship (highest honor for Ph.D. students at East China Normal University), 2025 </li>
