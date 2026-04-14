@@ -6,7 +6,7 @@ main:
     conference_short: Canadian AI 2026
     id: polywavegc
     conference: The 39th Canadian Conference on Artificial Intelligence, 2026
-    selected: true
+    selected: false
     labels: ["Deep Learning"]
     year: 20260409
     under_review: false
