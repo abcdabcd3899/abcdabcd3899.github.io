@@ -1,12 +1,13 @@
 main:
   - title: "Poly-WaveGC: A Generalized Spectral Wavelet Graph Convolution Network with Adaptive Orthogonal Polynomials"
     authors: "Wei Cao, Rachid Hedjam, Bessam Abdulrazak, Jun-Peng Zhu"
-    corresponding_authors: ["Rachid Hedjam", "Jun-Peng Zhu"]
+    corresponding_authors: ["Jun-Peng Zhu"]
     image: ./assets/img/poly.png
     conference_short: Canadian AI 2026
     id: polywavegc
     conference: The 39th Canadian Conference on Artificial Intelligence, 2026
-    selected: false
+    selected: true
+    code: https://github.com/weicaocw/Poly-WaveGC-public
     labels: ["Deep Learning"]
     year: 20260409
     under_review: false
@@ -104,7 +105,7 @@ main:
     year: 20250624
     video: https://youtu.be/Xe9XphaLRF8
     blog: https://mp.weixin.qq.com/s/oufyQBVJP1k08j7JXAFL5w
-    citations: 8  # 基于Google Scholar数据
+    citations: 9  # 基于Google Scholar数据
     under_review: false
 
   - title: "FDBKeeper: Enabling Scalable Coordination Services for Metadata Management using Distributed Key-Value Databases"
@@ -277,7 +278,7 @@ main:
     year: 20240606
     blog: https://mp.weixin.qq.com/s/TiqNMpdPXccVTz9ZiwOASw
     video: https://youtu.be/7FYiCDupRK8
-    citations: 52 # 基于Google Scholar数据
+    citations: 53 # 基于Google Scholar数据
     under_review: false
 
 
@@ -336,7 +337,7 @@ main:
     selected: true
     labels: ["Replication", "Log Replaying"]
     year: 20231201
-    citations: 2
+    citations: 3
     under_review: false
 
 
