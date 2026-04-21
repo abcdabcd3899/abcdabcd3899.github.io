@@ -7,6 +7,7 @@ main:
     id: polywavegc
     conference: The 39th Canadian Conference on Artificial Intelligence, 2026
     selected: true
+    pdf: assets/files/Poly_WaveGC.pdf
     code: https://github.com/weicaocw/Poly-WaveGC-public
     labels: ["Deep Learning"]
     year: 20260409
