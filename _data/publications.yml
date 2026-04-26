@@ -49,6 +49,7 @@ main:
     conference_short: ICDE
     id: mertune
     conference: 42nd IEEE International Conference on Data Engineering (ICDE), 2026
+    code: https://github.com/beyond-mountains/Mertune
     selected: true
     labels: ["AI4DB"]
     year: 20260219
@@ -279,7 +280,7 @@ main:
     year: 20240606
     blog: https://mp.weixin.qq.com/s/TiqNMpdPXccVTz9ZiwOASw
     video: https://youtu.be/7FYiCDupRK8
-    citations: 54 # 基于Google Scholar数据
+    citations: 53 # 基于Google Scholar数据
     under_review: false
 
 
