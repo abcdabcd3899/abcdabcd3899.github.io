@@ -175,6 +175,7 @@ main:
     selected: true
     labels: ["Deadlock Detection", "Distributed Database Systems"]
     year: 20250516
+    citations: 1  # 基于Google Scholar数据
     under_review: false
 
 
@@ -339,7 +340,7 @@ main:
     selected: true
     labels: ["Replication", "Log Replaying"]
     year: 20231201
-    citations: 3
+    citations: 4
     under_review: false
 
 
