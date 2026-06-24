@@ -80,6 +80,10 @@ For more details, please view the [Google Scholar profile](https://scholar.googl
 
 {% include_relative _includes/awards.md %}
 
+<h2 id="research-projects"><i class="fas fa-flask"></i> Research Projects</h2>
+
+{% include_relative _includes/research-projects.md %}
+
 <h2 id="experience"><i class="fas fa-award"></i> Experience</h2>
 
 
@@ -98,14 +102,3 @@ For more details, please view the [Google Scholar profile](https://scholar.googl
 <h2 id="services"><i class="fas fa-handshake-angle"></i> Services</h2>
 
 {% include_relative _includes/services.md %}
-
-## <i class="fas fa-map-marker-alt"></i> <span id="visitors">Visitors</span>
-
-<div style="text-align: center; position: relative;">
-  <a href='https://clustrmaps.com/site/1c5ir' style="display: block;">
-    <img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=500&t=tt&d=gLCfwQOo2tDTJu6x6-pe1tpNG7pvbeWih2SiAaG4jUc&co=2d78ad&ct=ffffff' alt="Visitor Map"/>
-  </a>
-  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 999;" onclick="return false;"></div>
-</div>
-
-{% include back-to-top.html %}
