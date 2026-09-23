@@ -1070,8 +1070,15 @@ header {
   background-color: var(--bg-color);
   transition: background-color 0.3s ease;
   overflow-y: auto; /* 内容过多时允许滚动 */
+  overflow-x: hidden; /* 防止访客地图触发横向滚动条 */
   scrollbar-width: thin; /* Firefox的滚动条样式 */
   -ms-overflow-style: none; /* IE的滚动条样式 */
+}
+
+/* 保证第三方访客地图不会超出个人信息栏 */
+.visitor-map,
+.visitor-map #mapmyvisitors-widget {
+  max-width: 100%;
 }
 
 /* 美化 Webkit 浏览器的滚动条 */
