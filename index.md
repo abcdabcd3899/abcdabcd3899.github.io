@@ -47,7 +47,10 @@ He has published more than ten papers at top-tier international database confere
 <div class="news-container">
   <div class="news-scroll">
   <ul>
+    <li><strong>[Sep. 28, 2026]</strong> <a href="#weavedata">WeaveData</a>, our first exploration of self-critique and self-evolving LLM plans, is now available on <a href="https://arxiv.org/abs/2609.34764">arXiv</a> and delivers strong performance in multimodal data analysis. 🎉🎉🎉</li>
     <li><strong>[Sep. 23, 2026]</strong> Selected as an awardee of the 2026 CCF Outstanding Doctoral Dissertation Award Program (nominated by the CCF Technical Committee on Databases). Congratulations! 🎉🎉🎉</li>
+    <li><strong>[Sep. 17, 2026]</strong> Received the Excellent Doctoral Dissertation Award of East China Normal University. Congratulations! 🎉🎉🎉</li>
+    <li><strong>[Jul. 16, 2026]</strong> Attended the summer school at the School of Data Science and Engineering, East China Normal University, and gave a talk titled "Automated Data Analysis with Large Language Models".</li>
     <li><strong>[Apr. 2026]</strong> One paper about <a href="#polywavegc">graph neural network</a> is accepted to <a href="https://www.caiac.ca/en/conferences/canadianai-2026/home">Canadian AI 2026</a>. Congratulations! 🎉🎉🎉</li>
     <li><strong>[Mar. 2026]</strong> One paper about <a href="#tiinsight2026">exploratory data analysis</a> is accepted to <a href="https://2026.sigmod.org/">SIGMOD 2026</a>. Congratulations! 🎉🎉🎉</li>
     <li><strong>[Feb. 2026]</strong> One paper about <a href="">database configuration tuning</a> is accepted to <a href="https://icde2026.github.io/">ICDE 2026</a>. Congratulations! 🎉🎉🎉</li>

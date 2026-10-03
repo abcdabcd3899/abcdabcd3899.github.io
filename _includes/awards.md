@@ -1,5 +1,5 @@
 <ul style="margin:0 0 20px;">
-  <li> 2026 CCF Outstanding Doctoral Dissertation Award Program — Awardee (nominated by the CCF Technical Committee on Databases)</li>
+  <li> CCF Outstanding Doctoral Dissertation Award Program — Awardee (nominated by the CCF Technical Committee on Databases)</li>
   <li> Excellent Doctoral Dissertation of East China Normal University</li>
   <li> Excellent Doctoral Dissertation of the Faculty of Information, East China Normal University</li>
   <li> Outstanding Doctoral Graduate of Shanghai</li>
