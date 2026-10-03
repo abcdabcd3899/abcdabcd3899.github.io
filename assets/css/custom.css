@@ -850,6 +850,11 @@ html {
   margin-bottom: 5px !important;
 }
 
+/* Match linked titles when no PDF is provided. */
+.publications .title > span {
+  color: var(--link-color);
+}
+
 /* 减少作者和会议信息之间的间距 */
 .publications .author {
   margin-bottom: 3px !important;
@@ -951,6 +956,13 @@ main, .main-content {
   height: 150px !important;
   object-fit: cover !important;
   margin: 0 !important;
+}
+
+/* Keep the complete framework diagrams visible within the standard teaser size. */
+.publications #timar .abbr img,
+.publications #weavedata .abbr img {
+  object-fit: contain !important;
+  background-color: #fff;
 }
 
 /* 减少标题和作者之间的间距 */

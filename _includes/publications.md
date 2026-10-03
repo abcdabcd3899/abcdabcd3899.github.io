@@ -25,7 +25,12 @@
       </div>
       <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
           <div class="title">
-            <a href="{{ link.pdf }}">{{ link.title }}</a>
+            {% assign paper_url = link.pdf | default: link.arxiv %}
+            {% if paper_url %}
+            <a href="{{ paper_url }}">{{ link.title }}</a>
+            {% else %}
+            <span>{{ link.title }}</span>
+            {% endif %}
           </div>
           <div class="author">
             {% assign author_list = link.authors %}
@@ -82,6 +87,11 @@
           {% if link.appendix %}
           <a href="{{ link.appendix }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">
             <i class="fas fa-file-alt"></i> Appendix
+          </a>
+          {% endif %}
+          {% if link.arxiv %}
+          <a href="{{ link.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">
+            <i class="fas fa-file-alt"></i> arXiv
           </a>
           {% endif %}
           {% if link.code %}
@@ -150,8 +160,12 @@
   </ol>
 {% endif %}
 
-<!-- 然后按年份显示已发表/接收的论文 -->
-{% assign published_papers = sorted_papers | where: "under_review", false %}
+<!-- 首页按年份显示所有选中的论文；完整页面将投稿中论文单独展示 -->
+{% if page.layout == 'homepage' %}
+  {% assign published_papers = sorted_papers | where: "selected", true %}
+{% else %}
+  {% assign published_papers = sorted_papers | where: "under_review", false %}
+{% endif %}
 {% assign current_year = "" %}
 {% for link in published_papers %}
   {% if page.layout == 'homepage' and link.selected != true %}
@@ -185,7 +199,12 @@
     </div>
     <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
         <div class="title">
-          <a href="{{ link.pdf }}">{{ link.title }}</a>
+          {% assign paper_url = link.pdf | default: link.arxiv %}
+          {% if paper_url %}
+          <a href="{{ paper_url }}">{{ link.title }}</a>
+          {% else %}
+          <span>{{ link.title }}</span>
+          {% endif %}
         </div>
         <div class="author">
           {% assign author_list = link.authors %}
@@ -243,6 +262,11 @@
           {% if link.appendix %}
           <a href="{{ link.appendix }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">
             <i class="fas fa-file-alt"></i> Appendix
+          </a>
+          {% endif %}
+          {% if link.arxiv %}
+          <a href="{{ link.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">
+            <i class="fas fa-file-alt"></i> arXiv
           </a>
           {% endif %}
           {% if link.code %}

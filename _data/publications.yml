@@ -1,4 +1,48 @@
 main:
+  - title: "WeaveData: A Multimodal Data Analysis System with Self-Critiquing and Self-Evolving LLM Plans"
+    authors: "Min Jia, Shihao Zhou, Jun-Peng Zhu, Peng Cai, Kai Xu, Chao Zhang, Li Li, Aoying Zhou, Heng Long, Qiu Cui, Liu Tang, Qi Liu"
+    conference_short: arXiv
+    conference: arXiv, 2026.09.28
+    notes: "Preprint"
+    abstract: "WeaveData supports natural-language analysis across relational tables, text, and images through LLM-generated plans. It checks typed logical plans before execution and evaluates whether their results answer the user's question. When a plan fails or produces an incomplete answer, the system diagnoses the problem using actual data, repairs the plan, reuses valid intermediate results, and records lessons for future questions. A metadata knowledge graph connects the data sources and supports clarification of ambiguous requests. An interactive notebook exposes analysis steps and evidence for model judgments. The system is demonstrated on two public multimodal datasets."
+    bibtex: |
+      @article{jia2026weavedata,
+        title={WeaveData: A Multimodal Data Analysis System with Self-Critiquing and Self-Evolving LLM Plans},
+        author={Jia, Min and Zhou, Shihao and Zhu, Jun-Peng and Cai, Peng and Xu, Kai and Zhang, Chao and Li, Li and Zhou, Aoying and Long, Heng and Cui, Qiu and Tang, Liu and Liu, Qi},
+        journal={arXiv preprint arXiv:2609.34764},
+        year={2026},
+        doi={10.48550/arXiv.2609.34764},
+        url={https://arxiv.org/abs/2609.34764}
+      }
+    arxiv: https://arxiv.org/abs/2609.34764
+    code: https://github.com/DASE-iDDS/weavedata
+    video: https://youtu.be/MQXFPBQMFEk
+    image: ./assets/img/weavedata.svg
+    id: weavedata
+    selected: true
+    labels: ["Data Analytics", "Multimodal Queries"]
+    year: 20260928
+    under_review: true
+
+  - title: "TiMAR: Entity-Graph-Guided Interactive Clarification for Ambiguous Multimodal Natural Language Queries"
+    authors: "Min Jia, Jun-Peng Zhu, Peng Cai, Kai Xu, Li Li, Aoying Zhou, Hongming Zhang, Heng Long, Liu Tang, Qi Liu"
+    conference_short: NDBC
+    conference: National Database Conference (NDBC), 2026
+    abstract: "Multimodal question-answering agents are becoming an important interface to text, images, tables, and databases in tasks such as visual question answering, chart question answering, document visual question answering, and text-to-SQL. Most existing agents follow an autonomous-exploration paradigm and answer directly even when queries are incomplete or evidence is noisy. Multimodal queries aggravate both problems: user intent spanning multiple modalities is hard to express in a single query, and superficially similar but semantically inconsistent matches across multi-source data make candidate evidence unreliable, so one query often admits multiple plausible interpretations. This paper proposes TiMAR, an interactive ambiguity resolution method that explicitly identifies and resolves query ambiguity before answering. TiMAR extracts candidate entities from text fragments, image objects, table fields, and database schemas; builds a cross-modal entity graph whose supporting and conflicting evidence calibrates candidate confidence and suppresses noise; and generates clarification questions by combining graph evidence with information gain. A reinforcement-learning-inspired control policy encodes clarification turns, information gain, belief entropy, and interaction history, and uses belief-entropy reduction as the reward to adaptively ask questions or stop. Experiments on text-to-SQL, chart, document, hybrid, and real-image question-answering benchmarks show that TiMAR improves answer accuracy and execution correctness over state-of-the-art baselines."
+    bibtex: |
+      @inproceedings{jia2026timar,
+        title={TiMAR: Entity-Graph-Guided Interactive Clarification for Ambiguous Multimodal Natural Language Queries},
+        author={Jia, Min and Zhu, Jun-Peng and Cai, Peng and Xu, Kai and Li, Li and Zhou, Aoying and Zhang, Hongming and Long, Heng and Tang, Liu and Liu, Qi},
+        booktitle={National Database Conference (NDBC)},
+        year={2026}
+      }
+    image: ./assets/img/timar.png
+    id: timar
+    selected: true
+    labels: ["Multimodal Queries", "LLM-based QA"]
+    year: 20260000  # Publication year only; exact date not specified.
+    under_review: false
+
   - title: "Poly-WaveGC: A Generalized Spectral Wavelet Graph Convolution Network with Adaptive Orthogonal Polynomials"
     authors: "Wei Cao, Rachid Hedjam, Bessam Abdulrazak, Jun-Peng Zhu"
     corresponding_authors: ["Jun-Peng Zhu"]
@@ -19,10 +63,10 @@ main:
     notes: "In Submission"
     pdf: https://arxiv.org/pdf/2603.23054
     image: ./assets/img/scout.png
-    conference_short: arxiv
+    conference_short: arXiv
     id: scout
-    conference: arxiv, 2026.03.24
-    selected: false
+    conference: arXiv, 2026.03.24
+    selected: true
     labels: ["AI4DB"]
     year: 20260324
     under_review: true
