@@ -1,0 +1,74 @@
+# Representative Work (homepage showcase)
+# Each entry renders as one card with a click-to-play video on the left and a summary on the right.
+# Order here = order on the page. Paths are relative to the site root.
+#
+# Fields:
+#   id          anchor id for the card (e.g. /#showcase-datastudio)
+#   title       system name
+#   subtitle    one-line description
+#   kind        small label above the title (e.g. "Product Demo")
+#   video       self-hosted MP4 (H.264/AAC, faststart) — loaded only when the visitor clicks play
+#   poster      cover image shown before playback
+#   duration    shown on the cover, mm:ss
+#   language    narration language, shown on the cover
+#   scenario    optional one-line demo scenario
+#   summary     one paragraph: what the system does
+#   highlights  short bullet points; "**text**" renders bold
+#   links       optional buttons {label, icon (Font Awesome class), url}
+
+items:
+  - id: showcase-datastudio
+    title: DataStudio
+    subtitle: An LLM-Powered General-Purpose Data Analysis Platform
+    kind: Product Demo
+    video: ./assets/videos/datastudio-demo.mp4
+    poster: ./assets/img/showcase/datastudio-poster.jpg
+    duration: "6:16"
+    language: Chinese narration
+    scenario: "Demo scenario: student daily management at Northwest A&F University (7 tables covering students, scores, attendance, dorm access, library, and canteen)"
+    summary: >-
+      DataStudio lets people ask questions of their data in plain language and get answers they can check.
+      It builds a semantic layer over connected databases, breaks complex questions into multi-step plans,
+      generates SQL grounded in the data context instead of letting the model invent numbers,
+      and records every result in a notebook that can be edited, re-run, and shared.
+    highlights:
+      - "**12 kinds of data sources**: DuckDB, PostgreSQL, MySQL, TiDB, Greenplum, StarRocks, ClickHouse, Trino/Presto, CSV/Parquet/Excel, and more; database passwords stay out of config files."
+      - "**LLM-built semantic layer**: column meanings, value ranges, table purposes, and business definitions are retrieved automatically when a question is asked."
+      - "**Visible plans**: multi-step plans are drawn as a dependency graph on a canvas with 75 built-in operators, and the execution trace shows every SQL statement sent to the database."
+      - "**Notebook to dashboard**: results land in editable notebook cells, the system suggests drill-down follow-ups, and charts can be pinned to dashboards."
+      - "**Built for teams**: real-time co-editing, per-role dataset and column permissions, and an audit log of every query."
+    links: []
+
+  - id: showcase-weavedata
+    title: WeaveData
+    subtitle: A Multimodal Data Analysis System with Self-Critiquing and Self-Evolving LLM Plans
+    kind: System Demo
+    video: ./assets/videos/weavedata-demo.mp4
+    poster: ./assets/img/showcase/weavedata-poster.jpg
+    duration: "4:20"
+    language: Chinese narration
+    scenario: "Demo scenarios: linking airlines to their logos (SemBench MMQA) and exploring real-estate listings with photos (Palimpzest)"
+    summary: >-
+      WeaveData answers natural-language questions that span relational tables, free text, and images.
+      The LLM writes a typed logical plan that is checked before it runs, and the result is critiqued afterwards
+      to decide whether it actually answers the question. When a plan fails or comes back incomplete,
+      WeaveData diagnoses the problem against the real data, repairs the plan, reuses valid intermediate results,
+      and records the lesson for future questions.
+    highlights:
+      - "**Self-critique before execution**: flawed plan drafts are rejected and revised before any data is touched."
+      - "**Self-repair after execution**: when the answer is incomplete, the system finds the evidence gap in the actual data and fixes the plan without starting over."
+      - "**Inspectable multimodal evidence**: every image or text judgment made by the model is shown alongside its explanation."
+      - "**Clarification for ambiguous questions**: a metadata knowledge graph links tables, texts, and images, and the system asks the user to pick an interpretation when a question can be read several ways."
+    links:
+      - label: Paper
+        icon: fas fa-file-pdf
+        url: https://arxiv.org/abs/2609.34764
+      - label: Code
+        icon: fab fa-github
+        url: https://github.com/DASE-iDDS/weavedata
+      - label: YouTube
+        icon: fab fa-youtube
+        url: https://youtu.be/MQXFPBQMFEk
+      - label: Publication
+        icon: fas fa-book-open
+        url: "#weavedata"

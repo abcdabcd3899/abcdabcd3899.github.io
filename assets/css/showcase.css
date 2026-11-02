@@ -1,0 +1,292 @@
+/* ===== Representative Work (homepage showcase) ===== */
+
+.showcase {
+  --sc-accent: #0A4B8F;
+  --sc-card-bg: rgba(10, 75, 143, 0.025);
+  --sc-card-border: rgba(10, 75, 143, 0.14);
+  --sc-muted: #5f6b7a;
+  --sc-chip-bg: rgba(10, 75, 143, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin: 10px 0 8px;
+  opacity: 0;
+  animation: fadeInContent 0.8s ease-in-out 0.45s forwards;
+}
+
+[data-theme="dark"] .showcase {
+  --sc-accent: #6fb0ec;
+  --sc-card-bg: rgba(255, 255, 255, 0.03);
+  --sc-card-border: rgba(255, 255, 255, 0.10);
+  --sc-muted: #a3aec0;
+  --sc-chip-bg: rgba(111, 176, 236, 0.14);
+}
+
+/* The page-wide fade-in on p/ul would re-trigger inside the card; the card animates as one unit instead. */
+.showcase p,
+.showcase ul {
+  opacity: 1;
+  animation: none;
+}
+
+.showcase-card,
+.showcase-card p,
+.showcase-card li {
+  text-align: left !important;
+}
+
+.showcase-card {
+  border: 1px solid var(--sc-card-border);
+  border-left: 4px solid var(--sc-accent);
+  border-radius: 8px;
+  background: var(--sc-card-bg);
+  padding: 16px 18px 12px;
+  scroll-margin-top: 70px;
+}
+
+/* ---- header ---- */
+.showcase-head {
+  margin-bottom: 12px;
+}
+
+.showcase-kind {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--sc-accent);
+  background: var(--sc-chip-bg);
+  border-radius: 3px;
+  padding: 1px 8px;
+  line-height: 1.6;
+}
+
+.showcase-title {
+  margin: 6px 0 0;
+  font-size: 1.35rem;
+  line-height: 1.25;
+}
+
+.showcase-subtitle {
+  margin-top: 2px;
+  color: var(--sc-muted);
+  font-style: italic;
+  line-height: 1.45;
+  text-align: left;
+}
+
+/* ---- body: video + text ---- */
+.showcase-body {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+}
+
+.showcase-player,
+.showcase-video {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #0b1220;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+}
+
+.showcase-player {
+  border-bottom: none !important;
+  cursor: pointer;
+}
+
+.showcase-player img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top left;
+  display: block;
+  transition: transform 0.35s ease, filter 0.35s ease;
+}
+
+.showcase-player:hover img,
+.showcase-player:focus-visible img {
+  transform: scale(1.02);
+  filter: brightness(0.82);
+}
+
+.showcase-player:focus-visible {
+  outline: 3px solid var(--sc-accent);
+  outline-offset: 2px;
+}
+
+.showcase-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 62px;
+  height: 62px;
+  margin: -31px 0 0 -31px;
+  border-radius: 50%;
+  background: rgba(10, 75, 143, 0.92);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
+  transition: transform 0.25s ease, background-color 0.25s ease;
+}
+
+.showcase-play i {
+  margin-left: 4px; /* optically center the triangle */
+}
+
+.showcase-player:hover .showcase-play,
+.showcase-player:focus-visible .showcase-play {
+  transform: scale(1.08);
+  background: rgba(10, 75, 143, 1);
+}
+
+.showcase-meta {
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.showcase-meta span {
+  background: rgba(0, 0, 0, 0.68);
+  color: #fff;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  padding: 1px 8px;
+  border-radius: 3px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.showcase-video {
+  object-fit: contain;
+}
+
+.showcase-text {
+  min-width: 0;
+}
+
+.showcase-summary {
+  margin: 0 0 8px;
+  line-height: 1.65;
+}
+
+.showcase-scenario {
+  margin: 0 0 10px;
+  font-size: 0.9rem;
+  color: var(--sc-muted);
+  line-height: 1.5;
+  text-align: left;
+}
+
+.showcase-scenario i {
+  color: var(--sc-accent);
+  margin-right: 2px;
+}
+
+.showcase-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.showcase-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.82rem;
+  padding: 2px 10px;
+  border: 1px solid var(--sc-accent);
+  border-radius: 4px;
+  color: var(--sc-accent) !important;
+  border-bottom: 1px solid var(--sc-accent) !important;
+  line-height: 1.6;
+}
+
+.showcase-link:hover {
+  background: var(--sc-accent);
+  color: #fff !important;
+}
+
+[data-theme="dark"] .showcase-link:hover {
+  color: #0d1626 !important;
+}
+
+/* ---- highlights ---- */
+.showcase-highlights {
+  list-style: none;
+  margin: 14px 0 0 !important;
+  padding: 12px 0 0 !important;
+  border-top: 1px dashed var(--sc-card-border);
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px 22px;
+}
+
+.showcase-highlights li {
+  position: relative;
+  padding-left: 18px;
+  margin: 0 !important;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  text-align: left;
+}
+
+.showcase-highlights li::before {
+  content: "";
+  position: absolute;
+  left: 3px;
+  top: 0.62em;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--sc-accent);
+}
+
+.showcase-highlights strong {
+  color: var(--sc-accent);
+  font-weight: 700;
+}
+
+/* ---- narrow screens ---- */
+@media (max-width: 768px) {
+  .showcase-card {
+    padding: 14px 14px 10px;
+  }
+
+  .showcase-body {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .showcase-highlights {
+    grid-template-columns: 1fr;
+  }
+
+  .showcase-play {
+    width: 52px;
+    height: 52px;
+    margin: -26px 0 0 -26px;
+    font-size: 1.15rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .showcase,
+  .showcase-player img,
+  .showcase-play {
+    animation: none;
+    opacity: 1;
+    transition: none;
+  }
+}

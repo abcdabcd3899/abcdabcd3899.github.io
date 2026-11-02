@@ -42,6 +42,10 @@ He has published more than ten papers at top-tier international database confere
   </li>
 </ul>
 
+<h2 id="representative-work"><i class="fas fa-circle-play"></i> Representative Work</h2>
+
+{% include showcase.html %}
+
 <h2 id="news"><i class="fas fa-bullhorn"></i> News</h2>
 
 <div class="news-container">

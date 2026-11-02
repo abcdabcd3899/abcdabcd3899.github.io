@@ -1,0 +1,41 @@
+<div class="showcase">
+{%- for item in site.data.showcase.items %}
+  <article class="showcase-card" id="{{ item.id }}">
+    <div class="showcase-head">
+      {%- if item.kind %}<span class="showcase-kind">{{ item.kind }}</span>{% endif %}
+      <h3 class="showcase-title">{{ item.title }}</h3>
+      {%- if item.subtitle %}<div class="showcase-subtitle">{{ item.subtitle }}</div>{% endif %}
+    </div>
+    <div class="showcase-body">
+      <a class="showcase-player" href="{{ item.video }}" data-video="{{ item.video }}" data-poster="{{ item.poster }}" aria-label="Play the {{ item.title }} demo video{% if item.duration %} ({{ item.duration }}){% endif %}">
+        <img src="{{ item.poster }}" alt="Screenshot of the {{ item.title }} demo" loading="lazy">
+        <span class="showcase-play" aria-hidden="true"><i class="fas fa-play"></i></span>
+        <span class="showcase-meta">
+          {%- if item.duration %}<span><i class="far fa-clock"></i> {{ item.duration }}</span>{% endif %}
+          {%- if item.language %}<span><i class="fas fa-closed-captioning"></i> {{ item.language }}</span>{% endif %}
+        </span>
+      </a>
+      <div class="showcase-text">
+        <p class="showcase-summary">{{ item.summary }}</p>
+        {%- if item.scenario %}
+        <p class="showcase-scenario"><i class="fas fa-location-dot"></i> {{ item.scenario }}</p>
+        {%- endif %}
+        {%- if item.links and item.links.size > 0 %}
+        <div class="showcase-links">
+          {%- for link in item.links %}
+          <a class="showcase-link" href="{{ link.url }}"{% unless link.url contains '#' %} target="_blank" rel="noopener"{% endunless %}><i class="{{ link.icon }}"></i> {{ link.label }}</a>
+          {%- endfor %}
+        </div>
+        {%- endif %}
+      </div>
+    </div>
+    {%- if item.highlights and item.highlights.size > 0 %}
+    <ul class="showcase-highlights">
+      {%- for h in item.highlights %}
+      <li>{{ h | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
+  </article>
+{%- endfor %}
+</div>
