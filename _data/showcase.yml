@@ -23,26 +23,27 @@ items:
     kind: Product Demo
     video: ./assets/videos/datastudio-demo.mp4
     poster: ./assets/img/showcase/datastudio-poster.jpg
-    duration: "6:16"
+    duration: "10:31"
     language: Chinese narration
-    scenario: "Demo scenario: student daily management at Northwest A&F University (7 tables covering students, scores, attendance, dorm access, library, and canteen)"
+    scenario: "Demo scenario: student daily management at Northwest A&F University (academic warnings, overnight absences, and targeted financial aid over 7 tables: students, colleges, scores, attendance, dorm access, library, and canteen)"
     summary: >-
-      DataStudio lets people ask questions of their data in plain language and get answers they can check.
-      It builds a semantic layer over connected databases, breaks complex questions into multi-step plans,
-      generates SQL grounded in the data context instead of letting the model invent numbers,
-      and records every result in a notebook that can be edited, re-run, and shared.
+      DataStudio lets business users ask questions of their data in plain language and get answers they can check.
+      A notebook, a drag-and-drop canvas, and natural-language Q&A all read and write one shared analysis graph,
+      so a change made in one view shows up in the others. Each question is clarified, broken into steps,
+      turned into SQL or Python, checked before it runs, and summarized in a conclusion whose numbers trace back to the source tables.
     highlights:
-      - "**12 kinds of data sources**: DuckDB, PostgreSQL, MySQL, TiDB, Greenplum, StarRocks, ClickHouse, Trino/Presto, CSV/Parquet/Excel, and more; database passwords stay out of config files."
-      - "**LLM-built semantic layer**: column meanings, value ranges, table purposes, and business definitions are retrieved automatically when a question is asked."
-      - "**Visible plans**: multi-step plans are drawn as a dependency graph on a canvas with 75 built-in operators, and the execution trace shows every SQL statement sent to the database."
-      - "**Notebook to dashboard**: results land in editable notebook cells, the system suggests drill-down follow-ups, and charts can be pinned to dashboards."
-      - "**Built for teams**: real-time co-editing, per-role dataset and column permissions, and an audit log of every query."
+      - "**12 kinds of data sources**: DuckDB, SQLite, PostgreSQL, Greenplum, MySQL, TiDB, StarRocks, Apache Doris, ClickHouse, Trino/Hive, CSV/Parquet, and Excel uploads; remote databases can be queried directly or synced incrementally to a local copy, and passwords never go into config files."
+      - "**Five-level data context (HDC)**: the LLM summarizes columns, tables, relationships, business entities, and the whole database, and the relevant pieces are retrieved when a question is asked."
+      - "**Checked before it runs**: generated code passes a safety guardrail, a database EXPLAIN, and a 50-row trial run, and failures are fed back to rewrite it; every number in the conclusion links to its result row and source column."
+      - "**84 canvas operators and 100+ algorithms**: 11 operator groups cover cleaning, reshaping, joins, text search, statistics, charts, machine learning, and LLM steps; modeling spans classification and regression through forecasting and survival analysis."
+      - "**Reproducible by design**: each step is fingerprinted by its code and upstream inputs, so unchanged results are reused, edits recompute only downstream steps, and every run can be replayed."
+      - "**People and agents on one document**: teams co-edit notebooks and canvases in real time with four agents (Q&A, canvas, visualization, review) whose steps can be undone, under OIDC sign-in, three permission levels, row filters, column masking, and a full audit log."
     links: []
 
   - id: showcase-weavedata
     title: WeaveData
     subtitle: A Multimodal Data Analysis System with Self-Critiquing and Self-Evolving LLM Plans
-    kind: System Demo
+    kind: Product Demo
     video: ./assets/videos/weavedata-demo.mp4
     poster: ./assets/img/showcase/weavedata-poster.jpg
     duration: "4:20"

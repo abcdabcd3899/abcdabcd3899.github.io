@@ -6,3 +6,5 @@ Gemfile.lock
 .jekyll-cache
 git-update.sh
 .vscode/*
+.gstack/
+DataStudio产品介绍.pptx
